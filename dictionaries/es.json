@@ -1,0 +1,291 @@
+{
+  "nav": {
+    "forClubs": "Para venues",
+    "howItWorks": "Cómo Funciona",
+    "whyErez": "Por Qué erez",
+    "contact": "Contacto",
+    "requestAccess": "Solicitar acceso"
+  },
+  "hero": {
+    "eyebrow": "Infraestructura de hostelería",
+    "headline1": "Convierte clientes en",
+    "headline2": "caras conocidas.",
+    "sub": "Un scan basta. Tu equipo sabe al instante quién tiene delante.",
+    "proof": ["Sin app. Sin login.", "Visible al instante.", "Tu marca. No la nuestra."],
+    "cta1": "Solicitar acceso",
+    "cta2": "Verlo en acción"
+  },
+  "problem": {
+    "eyebrow": "La brecha del reconocimiento",
+    "heading": "Reconoces a tus mejores clientes demasiado tarde.",
+    "body": "Vienen regularmente.\n\nGastan más que el resto.\n\nY aun así, tu equipo no los reconoce de inmediato.",
+    "fixLabel": "La solución",
+    "fixHeading": "Un perfil activo. Creado desde el primer scan.",
+    "fixBody": "En cuanto un cliente escanea, erez crea su perfil. Cada visita lo enriquece. Tu equipo ve al instante quién acaba de entrar — antes de la primera conversación.",
+    "unknownLabel": "Desconocido al llegar",
+    "knownLabel": "Reconocido al llegar",
+    "guestName": "Alex M.",
+    "guestMeta": "47 visitas  ·  Platinum  ·  Whiskey Old Fashioned",
+    "guestNote": "Cumpleaños la próxima semana"
+  },
+  "howItWorks": {
+    "eyebrow": "El flujo",
+    "heading": "Invisible para clientes. Esencial para el staff.",
+    "sub": "Tres pasos. Sin fricción para nadie.",
+    "steps": [
+      {
+        "number": "01",
+        "title": "El cliente escanea",
+        "body": "Código QR en la entrada. Se abre al instante en el navegador. Sin app. Sin cuenta. Un toque."
+      },
+      {
+        "number": "02",
+        "title": "El staff ve",
+        "body": "El panel se actualiza en tiempo real. Nombre, visitas, nivel de gasto, preferencias — antes de que llegue a la barra."
+      },
+      {
+        "number": "03",
+        "title": "El cliente se vuelve habitual",
+        "body": "Puntos, nivel y beneficios se acumulan automáticamente. Sin pasos extra para el cliente. Sin trabajo manual para el equipo."
+      }
+    ]
+  },
+  "features": {
+    "eyebrow": "Qué incluye",
+    "heading": "De la primera visita al habitual — automáticamente.",
+    "sub": "No más datos. Claridad en el momento.",
+    "items": [
+      {
+        "title": "Identidad del cliente",
+        "body": "Un perfil persistente desde el primer scan. Nombre, preferencias, historial de visitas — siempre actualizado, siempre disponible para tu equipo."
+      },
+      {
+        "title": "Vista del equipo",
+        "body": "El equipo de sala ve lo que necesita, cuando lo necesita. Discreto, en tiempo real, hecho para locales ocupados."
+      },
+      {
+        "title": "Motor de lealtad",
+        "body": "Puntos y niveles que realmente cambian el comportamiento. Sin tarjetas de sellos. Sin app separada."
+      },
+      {
+        "title": "Control de acceso",
+        "body": "Listas VIP, puertas de membresía, acceso a eventos — gestionados desde un solo lugar."
+      },
+      {
+        "title": "Analíticas",
+        "body": "Retención, riesgo de pérdida, gasto por cliente. Detecta la deriva antes de que sea tarde."
+      },
+      {
+        "title": "White label",
+        "body": "Funciona enteramente bajo tu marca. Tus clientes nunca ven erez."
+      }
+    ]
+  },
+  "cta": {
+    "eyebrow": "Solo por invitación",
+    "heading": "No es para todos.",
+    "sub": "erez es solo por invitación. Incorporamos un número limitado de locales cada trimestre.",
+    "qualifier": "Para equipos que se preocupan por quién entra.",
+    "cta": "Solicitar acceso",
+    "note": "Sin tiendas de apps. Sin tarjetas de sellos. Sin cuota de configuración.",
+    "whoTitle": "Trabajamos con",
+    "who": [
+      "Clubs y bares premium",
+      "Restaurantes de alto nivel",
+      "Hoteles boutique",
+      "Grupos multi-local"
+    ],
+    "stats": [
+      { "value": "< 24h", "label": "Primera respuesta" },
+      { "value": "0", "label": "Descargas de app requeridas" },
+      { "value": "100%", "label": "Tu marca. No la nuestra." }
+    ]
+  },
+  "footer": {
+    "tagline": "Infraestructura de reconocimiento de clientes para locales premium.",
+    "copyright": "© 2026 erez. Todos los derechos reservados.",
+    "colProduct": "Producto",
+    "colCompany": "Empresa",
+    "links": {
+      "forClubs": "Para venues",
+      "howItWorks": "Cómo Funciona",
+      "whyErez": "Por Qué erez",
+      "contact": "Contacto",
+      "privacy": "Privacidad",
+      "privacyUrl": "https://www.iubenda.com/privacy-policy/33906279",
+      "terms": "Términos",
+      "imprint": "Aviso legal"
+    }
+  },
+  "forClubs": {
+    "hero": {
+      "eyebrow": "Hecho para la hostelería",
+      "headline1": "Hecho para el",
+      "headline2": "momento en la puerta.",
+      "sub": "erez funciona al ritmo de tu local. Tu equipo recibe la información correcta — al instante. Los clientes se sienten reconocidos, sin esfuerzo."
+    },
+    "sections": [
+      {
+        "label": "Experiencia del staff",
+        "heading": "Tu equipo lo ve todo. Al instante.",
+        "body": "En cuanto un cliente escanea, tu equipo lo ve todo: visitas, gasto, preferencias. Sin buscar. Sin desplazarse. Solo la información correcta — en el momento justo."
+      },
+      {
+        "label": "Experiencia del cliente",
+        "heading": "Los clientes se sienten reconocidos — no observados.",
+        "body": "Los clientes escanean una vez. La lealtad se construye automáticamente. Beneficios, actualizaciones de estado y reconocimiento — sin descargar ninguna app."
+      },
+      {
+        "label": "Consola de gestión",
+        "heading": "Ve lo que realmente está pasando.",
+        "body": "Asistencia, niveles de lealtad, ingresos por cliente, riesgo de pérdida — todo en un lugar. Para managers que necesitan respuestas rápidas."
+      }
+    ],
+    "cta": {
+      "heading": "¿Listo para poner nombre a las caras?",
+      "sub": "Solicita acceso y te mostramos erez en acción."
+    }
+  },
+  "howItWorksPage": {
+    "hero": {
+      "eyebrow": "El flujo",
+      "headline1": "Simple para los clientes.",
+      "headline2": "Inmediato para tu equipo.",
+      "sub": "erez funciona en segundo plano. Sin descargar apps. Sin configuración para clientes. Tu equipo ve al instante quién acaba de llegar."
+    },
+    "guestFlow": {
+      "label": "Flujo del cliente",
+      "heading": "Lo que experimenta el cliente.",
+      "steps": [
+        { "number": "01", "title": "Llega", "body": "Código QR en la entrada, la barra o la mesa." },
+        { "number": "02", "title": "Escanea", "body": "Se abre al instante en el navegador. Sin app. Sin login." },
+        { "number": "03", "title": "Hace check-in", "body": "Un toque. Visita registrada. Perfil actualizado." },
+        { "number": "04", "title": "Recibe ventajas", "body": "Puntos, beneficios y upgrades llegan automáticamente." }
+      ]
+    },
+    "staffFlow": {
+      "label": "Flujo del staff",
+      "heading": "Lo que ve tu equipo.",
+      "steps": [
+        { "number": "01", "title": "Cliente reconocido", "body": "En cuanto un cliente escanea, aparece al instante en el panel." },
+        { "number": "02", "title": "Perfil del cliente", "body": "Nombre, visitas, gasto, preferencias — visible al instante." },
+        { "number": "03", "title": "Reaccionar de inmediato", "body": "Saludar personalmente, aplicar beneficios o actuar." },
+        { "number": "04", "title": "Todo registrado", "body": "Cada interacción complementa el perfil. Nada se pierde." }
+      ]
+    }
+  },
+  "whyErez": {
+    "hero": {
+      "eyebrow": "El pensamiento detrás",
+      "headline1": "La hostelería es",
+      "headline2": "memoria.",
+      "sub": "Los mejores lugares te recuerdan a ti. No solo tu pedido — a ti como cliente. erez hace exactamente eso escalable."
+    },
+    "points": [
+      {
+        "heading": "No es una tarjeta de fidelidad.",
+        "body": "Las tarjetas premian compras. erez reconoce clientes. Eso lo cambia todo."
+      },
+      {
+        "heading": "No es una app genérica.",
+        "body": "La mayoría de herramientas están hechas para retail. erez está hecho para momentos reales con el cliente."
+      },
+      {
+        "heading": "No es un CRM añadido.",
+        "body": "Los CRM muestran lo que pasó. erez muestra quién tienes delante."
+      }
+    ],
+    "manifesto": "La gran hostelería empieza por reconocer. erez no reemplaza a tu equipo. Le da exactamente la información que marca la diferencia — en el momento justo."
+  },
+  "contactPage": {
+    "hero": {
+      "eyebrow": "Contacto",
+      "headline": "Hablemos.",
+      "sub": "erez es solo por invitación. Si quieres ver cómo funciona en tu local, te lo muestro."
+    },
+    "form": {
+      "name": "Tu nombre",
+      "email": "Email profesional",
+      "venue": "Nombre del local",
+      "type": "Tipo de local",
+      "typePlaceholder": "Club, bar, restaurante, hotel...",
+      "message": "Cuéntanos sobre tu local",
+      "messagePlaceholder": "¿Qué pasa hoy en el check-in? ¿Dónde se pierde información de los clientes?",
+      "submit": "Solicitar acceso",
+      "successHeading": "Solicitud recibida.",
+      "successBody": "Nos pondremos en contacto en 48 horas.",
+      "note": "Respondemos en 48 horas. Normalmente antes.",
+      "legalPrefix": "Al enviar, aceptas nuestra ",
+      "legalLink": "Política de Privacidad",
+      "legalSuffix": ".",
+      "legalUrl": "https://www.iubenda.com/privacy-policy/33906279"
+    },
+    "aside": {
+      "heading": "Para quién está hecho erez",
+      "items": [
+        "Clubs y bares premium",
+        "Restaurantes con clientela habitual",
+        "Hoteles enfocados en el reconocimiento",
+        "Grupos multi-local"
+      ]
+    }
+  },
+  "imprint": {
+    "title": "Aviso legal",
+    "content": "Izhar Jama\nIsabellastraße 10\n80798 Múnich\nAlemania\n\nCorreo electrónico: hello@erez.app"
+  },
+  "terms": {
+    "title": "Condiciones de Uso",
+    "lastUpdated": "Última actualización: 1 de abril de 2026",
+    "sections": [
+      {
+        "title": "1. Aceptación de las condiciones",
+        "content": "Estas Condiciones de Uso regulan el uso de la plataforma erez, operada por erez Technologies. Al usar erez — ya sea como cliente o como local — aceptas estas condiciones. Si no estás de acuerdo, por favor no uses la plataforma."
+      },
+      {
+        "title": "2. Descripción del servicio",
+        "content": "erez es una plataforma web de infraestructura para hostelería. Permite el reconocimiento de clientes, check-ins, seguimiento de lealtad y recompensas en locales participantes. erez no opera locales y no es un proveedor de servicios de hostelería ni restauración."
+      },
+      {
+        "title": "3. Requisitos",
+        "content": "Debes tener al menos 18 años para usar erez. Al usar la plataforma, confirmas que cumples este requisito."
+      },
+      {
+        "title": "4. Cuentas",
+        "content": "Si creas una cuenta, eres responsable de la exactitud de la información proporcionada. Las credenciales de acceso deben mantenerse confidenciales. Eres responsable de toda la actividad que se produzca bajo tu cuenta."
+      },
+      {
+        "title": "5. Check-ins y lealtad",
+        "content": "Los check-ins pueden estar limitados a un número determinado por local y día. Los puntos y recompensas son definidos por cada local y pueden ser modificados o eliminados en cualquier momento. Los puntos no tienen valor monetario y no son transferibles, canjeables ni convertibles en efectivo."
+      },
+      {
+        "title": "6. Responsabilidad de los locales",
+        "content": "Los locales son operadores independientes. erez proporciona la infraestructura técnica pero no asume responsabilidad por las ofertas, servicios, recompensas o conducta de los locales individuales. Las reclamaciones relacionadas con servicios in situ deben resolverse directamente con el local."
+      },
+      {
+        "title": "7. Privacidad",
+        "content": "Para información sobre cómo procesamos datos personales, consulta nuestra Política de Privacidad. Al usar erez, consientes el procesamiento de datos de acuerdo con nuestra política de privacidad."
+      },
+      {
+        "title": "8. Uso prohibido",
+        "content": "Las siguientes actividades están prohibidas: abuso de la plataforma, fraude, accesos automatizados, suplantación de identidad, manipulación de datos y cualquier intento de comprometer la seguridad o funcionalidad de erez."
+      },
+      {
+        "title": "9. Limitación de responsabilidad",
+        "content": "erez se proporciona \"tal cual\" sin garantías expresas o implícitas. En la máxima medida permitida por la ley, erez Technologies no será responsable por daños indirectos, incidentales o consecuentes derivados del uso de la plataforma."
+      },
+      {
+        "title": "10. Modificaciones",
+        "content": "erez Technologies se reserva el derecho de modificar estas Condiciones de Uso en cualquier momento. Los cambios relevantes se comunicarán a través de la plataforma o por correo electrónico. El uso continuado tras un cambio implica aceptación."
+      },
+      {
+        "title": "11. Ley aplicable",
+        "content": "Estas Condiciones de Uso se rigen por las leyes de la República Federal de Alemania. El lugar de jurisdicción es Berlín, en la medida en que la ley lo permita."
+      },
+      {
+        "title": "12. Contacto",
+        "content": "Para preguntas sobre estas Condiciones de Uso, escríbenos a hello@erez.app."
+      }
+    ]
+  }
+}

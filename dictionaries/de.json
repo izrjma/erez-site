@@ -1,0 +1,291 @@
+{
+  "nav": {
+    "forClubs": "Für Venues",
+    "howItWorks": "So funktioniert's",
+    "whyErez": "Warum erez",
+    "contact": "Kontakt",
+    "requestAccess": "Zugang anfragen"
+  },
+  "hero": {
+    "eyebrow": "Infrastruktur für die Gastronomie",
+    "headline1": "Aus Gästen werden",
+    "headline2": "bekannte Gesichter.",
+    "sub": "Ein Scan genügt. Dein Team weiß sofort, wer vor ihnen steht.",
+    "proof": ["Keine App. Kein Login.", "Sofort sichtbar.", "Deine Marke. Nicht unsere."],
+    "cta1": "Zugang anfragen",
+    "cta2": "In Aktion sehen"
+  },
+  "problem": {
+    "eyebrow": "Die Erkennungslücke",
+    "heading": "Du erkennst deine besten Gäste zu spät.",
+    "body": "Sie kommen regelmäßig.\n\nGeben mehr aus als andere.\n\nUnd trotzdem erkennt dein Team sie nicht sofort.",
+    "fixLabel": "Die Lösung",
+    "fixHeading": "Ein aktives Gästeprofil. Ab dem ersten Scan.",
+    "fixBody": "Sobald ein Gast scannt, legt erez sein Profil an. Jeder weitere Besuch ergänzt es. Dein Team sieht sofort, wer gerade reinkommt — noch vor dem ersten Gespräch.",
+    "unknownLabel": "Unbekannt bei Ankunft",
+    "knownLabel": "Erkannt bei Ankunft",
+    "guestName": "Alex M.",
+    "guestMeta": "47 Besuche · Platinum · Whiskey Old Fashioned",
+    "guestNote": "Geburtstag nächste Woche"
+  },
+  "howItWorks": {
+    "eyebrow": "Der Ablauf",
+    "heading": "Unsichtbar für Gäste. Unverzichtbar für das Team.",
+    "sub": "Drei Schritte. Kein Aufwand auf beiden Seiten.",
+    "steps": [
+      {
+        "number": "01",
+        "title": "Gast scannt",
+        "body": "QR-Code am Eingang. Öffnet sofort im Browser. Keine App. Kein Account. Ein Tap."
+      },
+      {
+        "number": "02",
+        "title": "Team sieht",
+        "body": "Dashboard aktualisiert sich in Echtzeit. Name, Besuche, Ausgabenniveau, Vorlieben — sichtbar bevor der Gast die Bar erreicht."
+      },
+      {
+        "number": "03",
+        "title": "Gast wird Stammgast",
+        "body": "Punkte, Tier-Aufstieg und Vorteile sammeln sich automatisch an. Kein Aufwand für den Gast. Keine manuelle Arbeit für das Team."
+      }
+    ]
+  },
+  "features": {
+    "eyebrow": "Was enthalten ist",
+    "heading": "Vom ersten Besuch zum Stammgast — automatisch.",
+    "sub": "Nicht mehr Daten. Sondern Klarheit im Moment.",
+    "items": [
+      {
+        "title": "Gästeprofil",
+        "body": "Ein dauerhaftes Profil ab dem ersten Scan. Name, Vorlieben, Besuchshistorie — aktuell und jederzeit für dein Team verfügbar."
+      },
+      {
+        "title": "Team-Übersicht",
+        "body": "Das Team sieht alle relevanten Infos zum richtigen Zeitpunkt. Diskret, in Echtzeit, für volle Locations gemacht."
+      },
+      {
+        "title": "Loyalty Engine",
+        "body": "Punkte und Tier-Aufstieg, die Verhalten wirklich verändern. Keine Stempelkarten. Keine separate App."
+      },
+      {
+        "title": "Zugangskontrolle",
+        "body": "VIP-Listen, Mitgliedschaftsgates, Eventeinlass — alles an einem Ort verwaltet."
+      },
+      {
+        "title": "Analytics",
+        "body": "Rückkehrrate, Abwanderungsrisiko, Umsatz pro Gast. Erkenne Abwanderung, bevor sie passiert."
+      },
+      {
+        "title": "White Label",
+        "body": "Läuft vollständig unter deiner Marke. Deine Gäste sehen niemals erez."
+      }
+    ]
+  },
+  "cta": {
+    "eyebrow": "Nur auf Einladung",
+    "heading": "Nicht für alle.",
+    "sub": "erez ist nur auf Einladung. Wir starten jedes Quartal mit einer begrenzten Anzahl neuer Venues.",
+    "qualifier": "Für Teams, die wissen wollen, wer reinkommt.",
+    "cta": "Zugang anfragen",
+    "note": "Keine App Stores. Keine Stempelkarten. Keine Einrichtungsgebühr.",
+    "whoTitle": "Wir arbeiten mit",
+    "who": [
+      "Premium-Clubs und Bars",
+      "Gehobene Restaurants",
+      "Boutique-Hotels",
+      "Multi-Venue-Gruppen"
+    ],
+    "stats": [
+      { "value": "< 24h", "label": "Erste Antwort" },
+      { "value": "0", "label": "App-Downloads erforderlich" },
+      { "value": "100%", "label": "Deine Marke. Nicht unsere." }
+    ]
+  },
+  "footer": {
+    "tagline": "Gästeerkennungs-Infrastruktur für Premium-Venues.",
+    "copyright": "© 2026 erez. Alle Rechte vorbehalten.",
+    "colProduct": "Produkt",
+    "colCompany": "Unternehmen",
+    "links": {
+      "forClubs": "Für Venues",
+      "howItWorks": "So funktioniert's",
+      "whyErez": "Warum erez",
+      "contact": "Kontakt",
+      "privacy": "Datenschutz",
+      "privacyUrl": "https://www.iubenda.com/privacy-policy/10131222",
+      "terms": "AGB",
+      "imprint": "Impressum"
+    }
+  },
+  "forClubs": {
+    "hero": {
+      "eyebrow": "Für die Gastronomie gebaut",
+      "headline1": "Gebaut für den",
+      "headline2": "Moment am Eingang.",
+      "sub": "erez läuft im Rhythmus deiner Venue. Dein Team bekommt die richtigen Infos — sofort. Gäste fühlen sich gesehen, ohne Aufwand."
+    },
+    "sections": [
+      {
+        "label": "Mitarbeitererfahrung",
+        "heading": "Dein Team sieht alles. Sofort.",
+        "body": "Sobald ein Gast scannt, sieht dein Team alles: Besuche, Ausgaben, Vorlieben. Kein Suchen. Kein Scrollen. Nur die richtigen Infos — im richtigen Moment."
+      },
+      {
+        "label": "Gästeerfahrung",
+        "heading": "Gäste fühlen sich erkannt — nicht beobachtet.",
+        "body": "Gäste scannen einmal. Loyalität baut sich automatisch auf. Vorteile, Status-Upgrades und Anerkennung — ohne App-Download."
+      },
+      {
+        "label": "Management-Konsole",
+        "heading": "Du siehst, was wirklich passiert.",
+        "body": "Besuche, Loyalty-Tiers, Umsatz pro Gast, Abwanderungsrisiko — alles an einem Ort. Für Manager, die schnell Antworten brauchen."
+      }
+    ],
+    "cta": {
+      "heading": "Bereit, Gesichter mit Namen zu verbinden?",
+      "sub": "Zugang anfragen und wir zeigen dir erez in Aktion."
+    }
+  },
+  "howItWorksPage": {
+    "hero": {
+      "eyebrow": "Der Ablauf",
+      "headline1": "Einfach für Gäste.",
+      "headline2": "Sofort wirksam für dein Team.",
+      "sub": "erez läuft im Hintergrund. Kein App-Download. Kein Setup für Gäste. Dein Team sieht sofort, wer gerade ankommt."
+    },
+    "guestFlow": {
+      "label": "Gästeflow",
+      "heading": "Was der Gast erlebt.",
+      "steps": [
+        { "number": "01", "title": "Kommt an", "body": "QR-Code am Eingang, an der Bar oder am Tisch." },
+        { "number": "02", "title": "Scannt", "body": "Öffnet sich sofort im Browser. Keine App. Kein Login." },
+        { "number": "03", "title": "Checkt ein", "body": "Ein Tap. Besuch wird erfasst. Profil aktualisiert." },
+        { "number": "04", "title": "Erhält Vorteile", "body": "Punkte, Vorteile und Upgrades kommen automatisch." }
+      ]
+    },
+    "staffFlow": {
+      "label": "Mitarbeiterflow",
+      "heading": "Was dein Team sieht.",
+      "steps": [
+        { "number": "01", "title": "Gast wird erkannt", "body": "Sobald ein Gast scannt, erscheint er sofort im Dashboard." },
+        { "number": "02", "title": "Gästeprofil", "body": "Name, Besuche, Ausgaben, Vorlieben — sofort sichtbar." },
+        { "number": "03", "title": "Direkt reagieren", "body": "Gast persönlich begrüßen, Vorteile anwenden oder reagieren." },
+        { "number": "04", "title": "Alles dokumentiert", "body": "Jede Interaktion ergänzt das Profil. Nichts geht verloren." }
+      ]
+    }
+  },
+  "whyErez": {
+    "hero": {
+      "eyebrow": "Die Philosophie",
+      "headline1": "Gastfreundschaft ist",
+      "headline2": "Erinnerung.",
+      "sub": "Die besten Orte erinnern sich an dich. Nicht nur an deine Bestellung — sondern an dich als Gast. erez macht genau das skalierbar."
+    },
+    "points": [
+      {
+        "heading": "Keine Stempelkarte.",
+        "body": "Stempelkarten belohnen Käufe. erez erkennt Gäste. Das verändert alles."
+      },
+      {
+        "heading": "Keine generische App.",
+        "body": "Die meisten Tools sind für Retail gebaut. erez ist für echte Gastmomente gebaut."
+      },
+      {
+        "heading": "Kein CRM-Zusatz.",
+        "body": "CRMs zeigen, was war. erez zeigt, wer gerade vor dir steht."
+      }
+    ],
+    "manifesto": "Großartige Gastfreundschaft beginnt mit Erkennen. erez ersetzt nicht dein Team. Es gibt ihm genau die Informationen, die im richtigen Moment den Unterschied machen."
+  },
+  "contactPage": {
+    "hero": {
+      "eyebrow": "Kontakt",
+      "headline": "Lass uns reden.",
+      "sub": "erez ist nur auf Einladung. Wenn du sehen willst, wie das bei dir funktioniert, zeig ich es dir."
+    },
+    "form": {
+      "name": "Dein Name",
+      "email": "Geschäftliche E-Mail",
+      "venue": "Name der Venue",
+      "type": "Art der Venue",
+      "typePlaceholder": "Club, Bar, Restaurant, Hotel...",
+      "message": "Erzähl uns von deiner Venue",
+      "messagePlaceholder": "Was passiert aktuell bei euch beim Check-in? Wo gehen Infos verloren?",
+      "submit": "Zugang anfragen",
+      "successHeading": "Anfrage erhalten.",
+      "successBody": "Wir melden uns innerhalb von 48 Stunden.",
+      "note": "Wir antworten innerhalb von 48 Stunden. In der Regel schneller.",
+      "legalPrefix": "Mit dem Absenden stimmst du unserer ",
+      "legalLink": "Datenschutzerklärung",
+      "legalSuffix": " zu.",
+      "legalUrl": "https://www.iubenda.com/privacy-policy/10131222"
+    },
+    "aside": {
+      "heading": "Für wen erez gemacht ist",
+      "items": [
+        "Premium-Clubs und Bars",
+        "Restaurants mit treuen Stammgästen",
+        "Hotels mit Fokus auf Gästeerkennung",
+        "Multi-Venue-Gruppen"
+      ]
+    }
+  },
+  "imprint": {
+    "title": "Impressum",
+    "content": "Izhar Jama\nIsabellastraße 10\n80798 München\nDeutschland\n\nE-Mail: hello@erez.app"
+  },
+  "terms": {
+    "title": "Nutzungsbedingungen",
+    "lastUpdated": "Zuletzt aktualisiert: 1. April 2026",
+    "sections": [
+      {
+        "title": "1. Geltungsbereich",
+        "content": "Diese Nutzungsbedingungen gelten für die Nutzung der Plattform erez, betrieben von erez Technologies. Mit der Nutzung von erez — ob als Gast oder als Venue — erklärst du dich mit diesen Bedingungen einverstanden. Wenn du nicht einverstanden bist, nutze die Plattform bitte nicht."
+      },
+      {
+        "title": "2. Beschreibung des Dienstes",
+        "content": "erez ist eine webbasierte Infrastruktur für Gastfreundschaft. Die Plattform ermöglicht Gästeerkennung, Check-ins, Loyalitätsverfolgung und Belohnungen in teilnehmenden Venues. erez betreibt selbst keine Venues und ist kein Anbieter von Gastronomie- oder Hotelleistungen."
+      },
+      {
+        "title": "3. Berechtigung",
+        "content": "Du musst mindestens 18 Jahre alt sein, um erez zu nutzen. Durch die Nutzung bestätigst du, dass du diese Voraussetzung erfüllst."
+      },
+      {
+        "title": "4. Benutzerkonto",
+        "content": "Wenn du ein Konto erstellst, bist du für die Richtigkeit deiner Angaben verantwortlich. Zugangsdaten sind vertraulich zu behandeln. Du haftest für alle Aktivitäten, die über dein Konto stattfinden."
+      },
+      {
+        "title": "5. Check-ins und Loyalty",
+        "content": "Check-ins können auf eine bestimmte Anzahl pro Venue und Tag begrenzt sein. Punkte und Belohnungen werden von den jeweiligen Venues definiert und können jederzeit geändert oder entfernt werden. Punkte haben keinen monetären Gegenwert und sind nicht übertragbar, einlösbar oder auszahlbar."
+      },
+      {
+        "title": "6. Verantwortung der Venues",
+        "content": "Venues sind eigenständige Betreiber. erez stellt die technische Infrastruktur bereit, übernimmt jedoch keine Verantwortung für Angebote, Dienstleistungen, Belohnungen oder das Verhalten einzelner Venues. Ansprüche in Bezug auf Leistungen vor Ort sind direkt mit der jeweiligen Venue zu klären."
+      },
+      {
+        "title": "7. Datenschutz",
+        "content": "Informationen zur Verarbeitung personenbezogener Daten findest du in unserer Datenschutzerklärung. Mit der Nutzung von erez stimmst du der Datenverarbeitung gemäß unserer Datenschutzrichtlinie zu."
+      },
+      {
+        "title": "8. Unzulässige Nutzung",
+        "content": "Die folgenden Aktivitäten sind untersagt: Missbrauch der Plattform, Betrug, automatisierte Zugriffe, Identitätsdiebstahl, Manipulation von Daten sowie jeder Versuch, die Sicherheit oder Funktionalität von erez zu beeinträchtigen."
+      },
+      {
+        "title": "9. Haftungsbeschränkung",
+        "content": "erez wird wie besehen bereitgestellt, ohne ausdrückliche oder stillschweigende Garantien. Im gesetzlich zulässigen Rahmen haftet erez Technologies nicht für indirekte, zufällige oder Folgeschäden, die aus der Nutzung der Plattform entstehen."
+      },
+      {
+        "title": "10. Änderungen",
+        "content": "erez Technologies behält sich das Recht vor, diese Nutzungsbedingungen jederzeit zu ändern. Wesentliche Änderungen werden über die Plattform oder per E-Mail mitgeteilt. Die fortgesetzte Nutzung nach einer Änderung gilt als Zustimmung."
+      },
+      {
+        "title": "11. Anwendbares Recht",
+        "content": "Diese Nutzungsbedingungen unterliegen dem Recht der Bundesrepublik Deutschland. Gerichtsstand ist Berlin, sofern gesetzlich zulässig."
+      },
+      {
+        "title": "12. Kontakt",
+        "content": "Bei Fragen zu diesen Nutzungsbedingungen erreichst du uns unter hello@erez.app."
+      }
+    ]
+  }
+}
