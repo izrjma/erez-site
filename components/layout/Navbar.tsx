@@ -1,6 +1,7 @@
 'use client';
 
 import { useState, useEffect } from 'react';
+import Image from 'next/image';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { cn } from '@/lib/utils';
@@ -58,9 +59,16 @@ export function Navbar({ lang, dict }: NavbarProps) {
           {/* Logo */}
           <Link
             href={`/${lang}`}
-            className="text-lg font-semibold tracking-tight text-white hover:opacity-80 transition-opacity"
+            className="hover:opacity-80 transition-opacity"
           >
-            erez
+            <Image
+              src="/logo.png"
+              alt="erez"
+              width={180}
+              height={56}
+              className="h-14 w-auto"
+              priority
+            />
           </Link>
 
           {/* Desktop nav */}

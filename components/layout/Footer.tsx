@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import Link from 'next/link';
 import type { Lang } from '@/lib/utils';
 
@@ -40,8 +41,14 @@ export function Footer({ lang, dict }: FooterProps) {
       <div className="max-w-7xl mx-auto px-6 lg:px-10 py-16 grid grid-cols-2 md:grid-cols-4 gap-8">
         {/* Brand */}
         <div className="col-span-2 flex flex-col gap-4">
-          <Link href={`/${lang}`} className="text-lg font-semibold text-white">
-            erez
+          <Link href={`/${lang}`} className="hover:opacity-80 transition-opacity">
+            <Image
+              src="/logo.png"
+              alt="erez"
+              width={180}
+              height={56}
+              className="h-14 w-auto"
+            />
           </Link>
           <p className="text-sm text-white/30 leading-relaxed max-w-xs">
             {dict.tagline}
