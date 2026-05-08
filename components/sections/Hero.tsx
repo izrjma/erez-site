@@ -40,7 +40,7 @@ export function Hero({ lang, dict }: HeroProps) {
                 className="h-px w-6 flex-shrink-0"
                 style={{ background: 'linear-gradient(90deg, #7c3aed, #06b6d4)' }}
               />
-              <span className="text-[11px] uppercase tracking-[0.18em] font-medium text-white/40">
+              <span className="text-[11px] uppercase tracking-[0.18em] font-medium text-white/50">
                 {dict.eyebrow}
               </span>
             </div>
@@ -56,14 +56,14 @@ export function Hero({ lang, dict }: HeroProps) {
             </h1>
 
             {/* Sub */}
-            <p className="text-[1.05rem] leading-[1.75] text-white/40 max-w-[460px]">
+            <p className="text-[1.05rem] leading-[1.75] text-white/55 max-w-[460px]">
               {dict.sub}
             </p>
 
             {/* Proof row */}
             <div className="flex flex-wrap gap-x-7 gap-y-2.5">
               {dict.proof.map((item) => (
-                <span key={item} className="flex items-center gap-2.5 text-[12.5px] text-white/30">
+                <span key={item} className="flex items-center gap-2.5 text-[12.5px] text-white/40">
                   <span
                     className="size-1 rounded-full flex-shrink-0"
                     style={{ background: 'linear-gradient(135deg, #7c3aed, #06b6d4)' }}
@@ -117,7 +117,7 @@ export function Hero({ lang, dict }: HeroProps) {
         className="absolute bottom-0 inset-x-0 h-24 pointer-events-none"
         aria-hidden
         style={{
-          background: 'linear-gradient(to bottom, transparent, #080808)',
+          background: 'linear-gradient(to bottom, transparent, #0A0A0A)',
         }}
       />
     </section>

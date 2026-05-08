@@ -25,8 +25,8 @@
     "unknownLabel": "Desconocido al llegar",
     "knownLabel": "Reconocido al llegar",
     "guestName": "Alex M.",
-    "guestMeta": "47 visitas  ·  Platinum  ·  Whiskey Old Fashioned",
-    "guestNote": "Cumpleaños la próxima semana"
+    "guestMeta": "47 visitas  ·  VIP  ·  Última: hace 6 días",
+    "guestNote": "Nota del equipo: prefiere barra"
   },
   "howItWorks": {
     "eyebrow": "El flujo",
@@ -57,11 +57,11 @@
     "items": [
       {
         "title": "Identidad del cliente",
-        "body": "Un perfil persistente desde el primer scan. Nombre, preferencias, historial de visitas — siempre actualizado, siempre disponible para tu equipo."
+        "body": "Un perfil persistente desde el primer scan. Nombre, historial de visitas, señales como 'Old Fashioned, sin hielo' o 'siempre reserva la mesa de la esquina' — siempre actualizado, siempre disponible para tu equipo."
       },
       {
-        "title": "Vista del equipo",
-        "body": "El equipo de sala ve lo que necesita, cuando lo necesita. Discreto, en tiempo real, hecho para locales ocupados."
+        "title": "Alertas de check-in en vivo",
+        "body": "En cuanto un cliente escanea, tu equipo recibe una señal en vivo. VIPs, habituales, primeras visitas — marcados en el momento exacto en que entran."
       },
       {
         "title": "Motor de lealtad",
@@ -72,12 +72,12 @@
         "body": "Listas VIP, puertas de membresía, acceso a eventos — gestionados desde un solo lugar."
       },
       {
-        "title": "Analíticas",
-        "body": "Retención, riesgo de pérdida, gasto por cliente. Detecta la deriva antes de que sea tarde."
+        "title": "Insights inteligentes",
+        "body": "Ve tus días más fuertes y más flojos de un vistazo. Convierte el patrón en ofertas dirigidas — llena las noches lentas, premia tus horas punta."
       },
       {
-        "title": "White label",
-        "body": "Funciona enteramente bajo tu marca. Tus clientes nunca ven erez."
+        "title": "Reseñas de clientes",
+        "body": "Reseñas vinculadas a check-ins reales. Feedback honesto de clientes que realmente vinieron — sin ruido anónimo de internet."
       }
     ]
   },
@@ -138,7 +138,7 @@
       {
         "label": "Consola de gestión",
         "heading": "Ve lo que realmente está pasando.",
-        "body": "Asistencia, niveles de lealtad, ingresos por cliente, riesgo de pérdida — todo en un lugar. Para managers que necesitan respuestas rápidas."
+        "body": "Visitas, tasa de retorno, horas punta, nuevos vs. recurrentes — todo en un lugar. Para equipos que quieren saber qué funciona."
       }
     ],
     "cta": {

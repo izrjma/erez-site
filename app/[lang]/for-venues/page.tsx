@@ -38,7 +38,7 @@ export default async function ForClubsPage({
               <br />
               <span className="gradient-text">{d.hero.headline2}</span>
             </h1>
-            <p className="text-lg md:text-xl text-white/40 max-w-lg leading-relaxed">
+            <p className="text-lg md:text-xl text-white/55 max-w-lg leading-relaxed">
               {d.hero.sub}
             </p>
             <div>
@@ -81,7 +81,7 @@ export default async function ForClubsPage({
                   <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-semibold tracking-tight text-white leading-snug">
                     {section.heading}
                   </h2>
-                  <p className="text-base text-white/40 leading-relaxed max-w-md">
+                  <p className="text-base text-white/55 leading-relaxed max-w-md">
                     {section.body}
                   </p>
                 </div>
@@ -111,7 +111,7 @@ export default async function ForClubsPage({
           <h2 className="text-4xl md:text-5xl font-semibold tracking-tight text-white max-w-xl">
             {d.cta.heading}
           </h2>
-          <p className="text-lg text-white/40">{d.cta.sub}</p>
+          <p className="text-lg text-white/55">{d.cta.sub}</p>
           <Button href={`/${lang}/contact`} variant="primary" size="lg">
             {dict.nav.requestAccess}
           </Button>

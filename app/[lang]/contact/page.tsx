@@ -33,7 +33,7 @@ export default async function ContactPage({
             <h1 className="text-3xl sm:text-5xl md:text-6xl lg:text-7xl font-semibold tracking-tight text-white leading-tight">
               {d.hero.headline}
             </h1>
-            <p className="text-lg text-white/40 leading-relaxed">{d.hero.sub}</p>
+            <p className="text-lg text-white/55 leading-relaxed">{d.hero.sub}</p>
           </div>
         </div>
       </section>
@@ -53,12 +53,12 @@ export default async function ContactPage({
             <aside className="flex flex-col gap-8 pt-1 border-t border-white/[0.06] lg:border-t-0 pt-8 lg:pt-1">
               {/* Who it's for */}
               <div className="flex flex-col gap-4">
-                <h3 className="text-[11px] uppercase tracking-widest text-white/25 font-medium">
+                <h3 className="text-[11px] uppercase tracking-widest text-white/35 font-medium">
                   {d.aside.heading}
                 </h3>
                 <ul className="flex flex-col gap-3">
                   {d.aside.items.map((item: string) => (
-                    <li key={item} className="flex items-center gap-3 text-sm text-white/50">
+                    <li key={item} className="flex items-center gap-3 text-sm text-white/60">
                       <span
                         className="w-1.5 h-1.5 rounded-full flex-shrink-0"
                         style={{ background: 'linear-gradient(135deg, #ffb800, #ff6b35)' }}
@@ -76,11 +76,11 @@ export default async function ContactPage({
               <div className="flex flex-col gap-2">
                 <div className="flex items-center gap-2">
                   <div className="w-1.5 h-1.5 rounded-full bg-green-500" />
-                  <span className="text-[11px] uppercase tracking-widest text-white/25 font-medium">
+                  <span className="text-[11px] uppercase tracking-widest text-white/35 font-medium">
                     Invite-only
                   </span>
                 </div>
-                <p className="text-[13px] sm:text-xs text-white/30 leading-relaxed">
+                <p className="text-[13px] sm:text-xs text-white/40 leading-relaxed">
                   {d.form.note}
                 </p>
               </div>

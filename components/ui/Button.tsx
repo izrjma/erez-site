@@ -21,7 +21,7 @@ const variants = {
   secondary:
     'bg-white/[0.05] border border-white/[0.12] text-white/80 rounded-full hover:bg-white/[0.09] hover:border-white/20 hover:text-white active:scale-[0.98]',
   ghost:
-    'text-white/50 hover:text-white rounded-full hover:bg-white/[0.05] active:scale-[0.98]',
+    'text-white/60 hover:text-white rounded-full hover:bg-white/[0.05] active:scale-[0.98]',
 };
 
 const sizes = {

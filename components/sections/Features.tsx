@@ -32,8 +32,7 @@ const icons: Record<number, React.ReactNode> = {
   ),
   5: (
     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.4" strokeLinecap="round" strokeLinejoin="round" className="size-5">
-      <circle cx="12" cy="12" r="10" />
-      <path d="M8 12h8M12 8l4 4-4 4" />
+      <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z" />
     </svg>
   ),
 };
@@ -72,16 +71,16 @@ function FeatureCard({
         <h3 className="text-[0.95rem] font-semibold text-white tracking-tight">
           {item.title}
         </h3>
-        <p className="text-[0.875rem] text-white/35 leading-relaxed">{item.body}</p>
+        <p className="text-[0.875rem] text-white/45 leading-relaxed">{item.body}</p>
       </div>
 
-      {/* Wide-card visual (feature 0 only) */}
-      {wide && (
+      {/* Wide-card visual: guest tier mockup on opening card */}
+      {wide && index === 0 && (
         <div className="lg:ml-auto flex-shrink-0 flex flex-col gap-2 self-center">
           <div className="flex flex-col gap-2 min-w-[200px]">
             {[
-              { name: 'Alex M.',  tier: 'Platinum', visits: '47', color: 'from-violet-500 to-cyan-400 text-white' },
-              { name: 'Sarah K.', tier: 'Gold',     visits: '23', color: 'from-sky-400 to-blue-500 text-white' },
+              { name: 'Alex M.',  tier: 'VIP',     visits: '47', color: 'from-amber-400 to-yellow-500 text-black' },
+              { name: 'Sarah K.', tier: 'Regular', visits: '23', color: 'from-sky-400 to-blue-500 text-white' },
             ].map((g) => (
               <div key={g.name} className="flex items-center gap-2.5 px-3.5 py-2.5 rounded-xl bg-white/[0.03] border border-white/[0.05]">
                 <div className={`size-7 rounded-full flex-shrink-0 flex items-center justify-center text-[10px] font-bold bg-gradient-to-br ${g.color}`}>
@@ -89,8 +88,32 @@ function FeatureCard({
                 </div>
                 <div>
                   <div className="text-[11.5px] font-medium text-white leading-none">{g.name}</div>
-                  <div className="text-[10px] text-white/25 mt-0.5">{g.visits} visits · {g.tier}</div>
+                  <div className="text-[10px] text-white/35 mt-0.5">{g.visits} visits · {g.tier}</div>
                 </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      )}
+
+      {/* Wide-card visual: reviews mockup on closing card */}
+      {wide && index === 5 && (
+        <div className="lg:ml-auto flex-shrink-0 flex flex-col gap-2 self-center">
+          <div className="flex flex-col gap-2 min-w-[220px]">
+            {[
+              { name: 'Marco F.', quote: 'They knew my drink before I sat down.' },
+              { name: 'Lena B.',  quote: 'Felt like a regular on visit two.' },
+            ].map((r) => (
+              <div key={r.name} className="px-3.5 py-2.5 rounded-xl bg-white/[0.03] border border-white/[0.05]">
+                <div className="flex items-center gap-0.5 mb-1.5">
+                  {Array.from({ length: 5 }).map((_, i) => (
+                    <svg key={i} viewBox="0 0 24 24" fill="currentColor" className="size-3 text-amber-400">
+                      <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
+                    </svg>
+                  ))}
+                </div>
+                <div className="text-[11px] text-white/60 leading-snug italic">&ldquo;{r.quote}&rdquo;</div>
+                <div className="text-[10px] text-white/35 mt-1">— {r.name}</div>
               </div>
             ))}
           </div>
@@ -115,7 +138,7 @@ export function Features({ dict }: FeaturesProps) {
             {dict.heading}
           </h2>
           {dict.sub && (
-            <p className="text-[0.95rem] text-white/35 max-w-md">{dict.sub}</p>
+            <p className="text-[0.95rem] text-white/45 max-w-md">{dict.sub}</p>
           )}
         </div>
 

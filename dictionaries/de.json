@@ -25,8 +25,8 @@
     "unknownLabel": "Unbekannt bei Ankunft",
     "knownLabel": "Erkannt bei Ankunft",
     "guestName": "Alex M.",
-    "guestMeta": "47 Besuche · Platinum · Whiskey Old Fashioned",
-    "guestNote": "Geburtstag nächste Woche"
+    "guestMeta": "47 Besuche · VIP · Letzter Besuch: vor 6 Tagen",
+    "guestNote": "Team-Notiz: bevorzugt Platz an der Bar"
   },
   "howItWorks": {
     "eyebrow": "Der Ablauf",
@@ -57,11 +57,11 @@
     "items": [
       {
         "title": "Gästeprofil",
-        "body": "Ein dauerhaftes Profil ab dem ersten Scan. Name, Vorlieben, Besuchshistorie — aktuell und jederzeit für dein Team verfügbar."
+        "body": "Ein dauerhaftes Profil ab dem ersten Scan. Name, Besuchshistorie, Signale wie 'Old Fashioned, pur' oder 'sitzt immer am Ecktisch' — aktuell und jederzeit für dein Team verfügbar."
       },
       {
-        "title": "Team-Übersicht",
-        "body": "Das Team sieht alle relevanten Infos zum richtigen Zeitpunkt. Diskret, in Echtzeit, für volle Locations gemacht."
+        "title": "Live Check-in-Alerts",
+        "body": "Sobald ein Gast scannt, bekommt dein Team ein Live-Signal. VIPs, Stammgäste, Erstbesucher — markiert in dem Moment, in dem sie reinkommen."
       },
       {
         "title": "Loyalty Engine",
@@ -72,12 +72,12 @@
         "body": "VIP-Listen, Mitgliedschaftsgates, Eventeinlass — alles an einem Ort verwaltet."
       },
       {
-        "title": "Analytics",
-        "body": "Rückkehrrate, Abwanderungsrisiko, Umsatz pro Gast. Erkenne Abwanderung, bevor sie passiert."
+        "title": "Smart Insights",
+        "body": "Sieh deine stärksten und schwächsten Tage auf einen Blick. Mach gezielte Angebote daraus — füll ruhige Abende, belohne deine Stoßzeiten."
       },
       {
-        "title": "White Label",
-        "body": "Läuft vollständig unter deiner Marke. Deine Gäste sehen niemals erez."
+        "title": "Gäste-Bewertungen",
+        "body": "Bewertungen, verknüpft mit echten Check-ins. Ehrliches Feedback von Gästen, die wirklich da waren — kein anonymes Rauschen aus dem Netz."
       }
     ]
   },
@@ -138,7 +138,7 @@
       {
         "label": "Management-Konsole",
         "heading": "Du siehst, was wirklich passiert.",
-        "body": "Besuche, Loyalty-Tiers, Umsatz pro Gast, Abwanderungsrisiko — alles an einem Ort. Für Manager, die schnell Antworten brauchen."
+        "body": "Besuche, Rückkehrrate, Stoßzeiten, neue vs. wiederkehrende Gäste — alles an einem Ort. Für Teams, die wissen wollen, was funktioniert."
       }
     ],
     "cta": {

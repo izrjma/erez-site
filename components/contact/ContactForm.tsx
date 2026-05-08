@@ -24,9 +24,9 @@ interface ContactFormProps {
 }
 
 const inputBase =
-  'w-full h-12 px-5 rounded-xl bg-white/[0.04] border border-white/[0.08] text-white text-sm placeholder:text-white/20 outline-none focus:border-amber-400/40 focus:bg-white/[0.07] transition-all duration-200';
+  'w-full h-12 px-5 rounded-xl bg-white/[0.04] border border-white/[0.08] text-white text-sm placeholder:text-white/30 outline-none focus:border-amber-400/40 focus:bg-white/[0.07] transition-all duration-200';
 
-const labelBase = 'text-xs font-medium text-white/40 uppercase tracking-widest mb-2 block';
+const labelBase = 'text-xs font-medium text-white/50 uppercase tracking-widest mb-2 block';
 
 export function ContactForm({ dict }: ContactFormProps) {
   const [sent, setSent] = useState(false);
@@ -61,7 +61,7 @@ export function ContactForm({ dict }: ContactFormProps) {
         </div>
         <div>
           <p className="text-xl font-semibold text-white">{dict.successHeading}</p>
-          <p className="text-sm text-white/40 mt-1">{dict.successBody}</p>
+          <p className="text-sm text-white/50 mt-1">{dict.successBody}</p>
         </div>
       </div>
     );
@@ -136,7 +136,7 @@ export function ContactForm({ dict }: ContactFormProps) {
         <Button type="submit" variant="primary" size="lg">
           {dict.submit}
         </Button>
-        <span className="text-[13px] sm:text-xs text-white/25">{dict.note}</span>
+        <span className="text-[13px] sm:text-xs text-white/35">{dict.note}</span>
       </div>
 
       <p className="text-xs text-white/[0.35] hover:text-white/60 transition-colors mt-3">

@@ -29,7 +29,7 @@ export function HowItWorks({ dict }: HowItWorksProps) {
           <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-[3.25rem] font-semibold tracking-tight text-white leading-[1.08] max-w-2xl">
             {dict.heading}
           </h2>
-          <p className="text-[0.95rem] text-white/35 max-w-sm">{dict.sub}</p>
+          <p className="text-[0.95rem] text-white/45 max-w-sm">{dict.sub}</p>
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 sm:gap-16 lg:gap-24 items-center">
@@ -69,7 +69,7 @@ export function HowItWorks({ dict }: HowItWorksProps) {
                   <h3 className="text-[1.05rem] font-semibold text-white mb-2 tracking-tight">
                     {step.title}
                   </h3>
-                  <p className="text-[0.9rem] text-white/38 leading-relaxed max-w-sm">{step.body}</p>
+                  <p className="text-[0.9rem] text-white/48 leading-relaxed max-w-sm">{step.body}</p>
                 </div>
               </li>
             ))}

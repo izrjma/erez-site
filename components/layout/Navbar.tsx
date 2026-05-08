@@ -51,7 +51,7 @@ export function Navbar({ lang, dict }: NavbarProps) {
         className={cn(
           'fixed top-0 left-0 right-0 z-50 transition-all duration-300',
           scrolled
-            ? 'border-b border-white/[0.06] bg-[#080808]/90 backdrop-blur-xl'
+            ? 'border-b border-white/[0.06] bg-[#0A0A0A]/90 backdrop-blur-xl'
             : 'bg-transparent',
         )}
       >
@@ -81,7 +81,7 @@ export function Navbar({ lang, dict }: NavbarProps) {
                   'text-sm transition-colors duration-150',
                   pathname === l.href
                     ? 'text-white'
-                    : 'text-white/40 hover:text-white/80',
+                    : 'text-white/50 hover:text-white/80',
                 )}
               >
                 {l.label}
@@ -100,7 +100,7 @@ export function Navbar({ lang, dict }: NavbarProps) {
                     href={`/${l}${pathWithoutLang === '/' ? '' : pathWithoutLang}`}
                     className={cn(
                       'text-[11px] font-medium uppercase tracking-wider transition-colors',
-                      l === lang ? 'text-white' : 'text-white/25 hover:text-white/60',
+                      l === lang ? 'text-white' : 'text-white/35 hover:text-white/60',
                     )}
                   >
                     {l}
@@ -156,7 +156,7 @@ export function Navbar({ lang, dict }: NavbarProps) {
             ? 'opacity-100 pointer-events-auto'
             : 'opacity-0 pointer-events-none',
         )}
-        style={{ background: '#080808' }}
+        style={{ background: '#0A0A0A' }}
       >
         <div className="h-16" /> {/* Spacer for header */}
         <div className="flex-1 flex flex-col px-6 py-10 gap-8">
@@ -167,7 +167,7 @@ export function Navbar({ lang, dict }: NavbarProps) {
                 href={l.href}
                 className={cn(
                   'text-2xl sm:text-3xl font-semibold tracking-tight transition-colors',
-                  pathname === l.href ? 'text-white' : 'text-white/40',
+                  pathname === l.href ? 'text-white' : 'text-white/50',
                 )}
               >
                 {l.label}
@@ -186,7 +186,7 @@ export function Navbar({ lang, dict }: NavbarProps) {
                     'text-sm font-medium uppercase tracking-wider px-3.5 py-2 rounded-full border transition-colors',
                     l === lang
                       ? 'border-white/20 text-white bg-white/[0.06]'
-                      : 'border-white/[0.06] text-white/30 hover:text-white/60',
+                      : 'border-white/[0.06] text-white/40 hover:text-white/60',
                   )}
                 >
                   {l}

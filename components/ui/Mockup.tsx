@@ -23,11 +23,11 @@ function WindowChrome({ title, live = false }: { title: string; live?: boolean }
 }
 
 /* ── Tier badge ───────────────────────────────────────── */
-function TierBadge({ tier, color }: { tier: string; color: 'amber' | 'sky' | 'muted' }) {
+function TierBadge({ tier, color }: { tier: string; color: 'gold' | 'sky' | 'muted' }) {
   const styles = {
-    amber: 'text-violet-400 bg-violet-400/10 border border-violet-400/15',
-    sky:   'text-sky-400    bg-sky-400/10    border border-sky-400/15',
-    muted: 'text-white/30   bg-white/[0.04]  border border-white/[0.07]',
+    gold:  'text-amber-400 bg-amber-400/10 border border-amber-400/20',
+    sky:   'text-sky-400   bg-sky-400/10   border border-sky-400/15',
+    muted: 'text-white/30  bg-white/[0.04] border border-white/[0.07]',
   };
   return (
     <span className={`text-[9.5px] uppercase tracking-wider font-semibold px-2 py-0.5 rounded-full ${styles[color]}`}>
@@ -68,93 +68,67 @@ function StatPill({ label, value, sub }: { label: string; value: string; sub: st
 export function DashboardMockup() {
   return (
     <div className="rounded-2xl border border-white/[0.09] bg-[#090909] overflow-hidden shadow-[0_24px_80px_rgba(0,0,0,0.5)] max-w-full">
-      <WindowChrome title="erez  ·  Staff Dashboard" live />
+      <WindowChrome title="erez  ·  Dashboard" />
 
-      {/* Stats strip */}
-      <div className="flex gap-2 px-5 py-3.5 border-b border-white/[0.05] bg-[#0b0b0b]">
-        <StatPill label="Tonight" value="142" sub="guests checked in" />
-        <StatPill label="VIPs active" value="38" sub="3 new this week" />
-        <StatPill label="Avg. spend" value="€84" sub="↑ 6% vs last Fri" />
+      {/* KPI cards — matches real product */}
+      <div className="grid grid-cols-4 gap-2 px-4 py-3.5 border-b border-white/[0.05] bg-[#0b0b0b]">
+        {[
+          { label: "Today's Visits", value: '38',  color: 'text-violet-400' },
+          { label: 'Members',        value: '520', color: 'text-violet-300' },
+          { label: 'Repeat Guests',  value: '67%', color: 'text-cyan-400' },
+          { label: 'Active Benefits',value: '7',   color: 'text-green-400' },
+        ].map((k) => (
+          <div key={k.label} className="px-2.5 py-2 rounded-lg bg-white/[0.03] border border-white/[0.05] text-center">
+            <div className={`text-[14px] font-bold leading-none ${k.color}`}>{k.value}</div>
+            <div className="text-[8px] text-white/25 uppercase tracking-widest mt-1.5">{k.label}</div>
+          </div>
+        ))}
       </div>
 
-      {/* Live check-in notification */}
-      <div className="mx-4 mt-3.5 mb-1 rounded-xl border border-violet-500/[0.22] bg-violet-500/[0.05] px-4 py-3 flex items-center gap-3.5">
-        <div className="size-2 rounded-full bg-violet-400 flex-shrink-0 animate-pulse" />
-        <div className="flex-1 min-w-0">
-          <span className="text-[11.5px] font-semibold text-violet-300/90">Alex M.</span>
-          <span className="text-[11.5px] text-white/35"> just checked in</span>
-          <span className="text-[10.5px] text-white/20 ml-2">· Platinum · 47 visits</span>
-        </div>
-        <span className="text-[10px] text-white/20 flex-shrink-0">now</span>
+      {/* Summary row */}
+      <div className="grid grid-cols-3 gap-px bg-white/[0.04] border-b border-white/[0.05]">
+        {[
+          { label: 'Avg Visits / Guest', value: '5.2' },
+          { label: 'Avg Between Visits', value: '8d' },
+          { label: 'New / Returning',    value: '28 / 112', highlight: true },
+        ].map((s) => (
+          <div key={s.label} className="bg-[#0b0b0b] px-3.5 py-2.5 text-center">
+            <div className={`text-[13px] font-semibold leading-none ${s.highlight ? 'text-green-400' : 'text-white'}`}>{s.value}</div>
+            <div className="text-[8px] text-white/20 uppercase tracking-widest mt-1">{s.label}</div>
+          </div>
+        ))}
       </div>
 
-      {/* Guest list */}
-      <div className="divide-y divide-white/[0.04] mt-1.5">
-
-        {/* Guest 1 — Platinum, active */}
-        <div className="flex items-start gap-3.5 px-5 py-3.5">
-          <Avatar
-            initials="AM"
-            bg="bg-gradient-to-br from-violet-500 to-cyan-400 text-white"
-          />
-          <div className="flex-1 min-w-0">
-            <div className="flex items-center gap-2 mb-1">
-              <span className="text-[13px] font-semibold text-white">Alex M.</span>
-              <TierBadge tier="Platinum" color="amber" />
+      {/* Top Guests This Week */}
+      <div className="px-4 pt-3.5 pb-1">
+        <div className="text-[10px] text-white/30 font-semibold uppercase tracking-widest mb-2.5">Top Guests This Week</div>
+      </div>
+      <div className="divide-y divide-white/[0.04]">
+        {[
+          { rank: 1, initials: 'V', name: 'Victoria R.', tier: 'VIP', pts: '3850 pts', visits: '68 visits', weekly: '8', bg: 'bg-gradient-to-br from-violet-500 to-cyan-400 text-white' },
+          { rank: 2, initials: 'A', name: 'Alexander K.', tier: 'VIP', pts: '2940 pts', visits: '52 visits', weekly: '7', bg: 'bg-gradient-to-br from-orange-400 to-amber-500 text-white' },
+          { rank: 3, initials: 'C', name: 'Charlotte W.', tier: 'VIP', pts: '2410 pts', visits: '48 visits', weekly: '6', bg: 'bg-gradient-to-br from-rose-400 to-pink-500 text-white' },
+        ].map((g) => (
+          <div key={g.rank} className="flex items-center gap-3 px-4 py-2.5">
+            <span className="text-[10px] font-bold text-white/25 w-3 text-center">{g.rank}</span>
+            <div className={`size-8 rounded-full flex-shrink-0 flex items-center justify-center text-[10px] font-bold ${g.bg}`}>
+              {g.initials}
             </div>
-            <div className="text-[11px] text-white/35 truncate">47 visits · Whiskey Old Fashioned · Birthday next week 🎂</div>
-            <div className="flex items-center gap-3 mt-1.5">
-              <span className="text-[10px] text-white/20">€3,200 lifetime</span>
-              <span className="text-[10px] text-white/15">·</span>
-              <span className="text-[10px] text-white/20">Last: 6 days ago</span>
+            <div className="flex-1 min-w-0">
+              <div className="flex items-center gap-2">
+                <span className="text-[12px] font-semibold text-white">{g.name}</span>
+                <TierBadge tier={g.tier} color="gold" />
+              </div>
+              <div className="text-[10px] text-white/25 mt-0.5">{g.pts} · {g.visits}</div>
+            </div>
+            <div className="text-right flex-shrink-0">
+              <div className="text-[14px] font-bold text-white">{g.weekly}</div>
+              <div className="text-[8px] text-white/20">this week</div>
             </div>
           </div>
-          <span className="text-[10px] text-white/20 flex-shrink-0 pt-0.5">now</span>
-        </div>
-
-        {/* Guest 2 — Gold */}
-        <div className="flex items-start gap-3.5 px-5 py-3.5">
-          <Avatar
-            initials="SK"
-            bg="bg-gradient-to-br from-sky-400/80 to-blue-500/80 text-white"
-          />
-          <div className="flex-1 min-w-0">
-            <div className="flex items-center gap-2 mb-1">
-              <span className="text-[13px] font-semibold text-white">Sarah K.</span>
-              <TierBadge tier="Gold" color="sky" />
-            </div>
-            <div className="text-[11px] text-white/35 truncate">23 visits · Champagne · Table 7 preferred</div>
-            <div className="flex items-center gap-3 mt-1.5">
-              <span className="text-[10px] text-white/20">€1,440 lifetime</span>
-              <span className="text-[10px] text-white/15">·</span>
-              <span className="text-[10px] text-white/20">Last: 2 weeks ago</span>
-            </div>
-          </div>
-          <span className="text-[10px] text-white/20 flex-shrink-0 pt-0.5">4m</span>
-        </div>
-
-        {/* Guest 3 — New, dimmed */}
-        <div className="flex items-start gap-3.5 px-5 py-3.5 opacity-45">
-          <Avatar initials="MT" />
-          <div className="flex-1 min-w-0">
-            <div className="flex items-center gap-2 mb-1">
-              <span className="text-[13px] font-semibold text-white/70">Marcus T.</span>
-              <TierBadge tier="New" color="muted" />
-            </div>
-            <div className="text-[11px] text-white/30 truncate">First visit · Referred by Alex M.</div>
-            <div className="flex items-center gap-3 mt-1.5">
-              <span className="text-[10px] text-white/20">First visit tonight</span>
-            </div>
-          </div>
-          <span className="text-[10px] text-white/20 flex-shrink-0 pt-0.5">9m</span>
-        </div>
+        ))}
       </div>
 
-      {/* Footer: status */}
-      <div className="px-5 py-3 border-t border-white/[0.04] bg-[#0b0b0b] flex items-center gap-2.5">
-        <span className="w-1.5 h-1.5 rounded-full bg-green-500 flex-shrink-0" />
-        <span className="text-[10px] text-white/25 tracking-wide">Live · 3 check-ins in the last 5 min</span>
-      </div>
     </div>
   );
 }
@@ -203,12 +177,12 @@ export function PhoneMockup() {
 
           {/* Tier status */}
           <div className="rounded-xl bg-white/[0.04] border border-white/[0.07] p-3.5 flex items-center gap-3">
-            <div className="size-8 rounded-full bg-gradient-to-br from-violet-500 to-cyan-400 flex items-center justify-center flex-shrink-0">
-              <span className="text-[10px] font-bold text-white">P</span>
+            <div className="size-8 rounded-full bg-gradient-to-br from-amber-400 to-yellow-500 flex items-center justify-center flex-shrink-0">
+              <span className="text-[10px] font-bold text-black">V</span>
             </div>
             <div>
-              <div className="text-[11px] font-semibold text-violet-300">Platinum member</div>
-              <div className="text-[10px] text-white/25 mt-0.5">2,840 pts · 160 to Diamond</div>
+              <div className="text-[11px] font-semibold text-amber-400">VIP member</div>
+              <div className="text-[10px] text-white/25 mt-0.5">2,840 pts · 160 to next tier</div>
             </div>
           </div>
 
@@ -231,11 +205,11 @@ export function PhoneMockup() {
             <span className="text-[13px] font-semibold text-white">+50</span>
           </div>
 
-          {/* Perk available */}
-          <div className="rounded-xl border border-violet-500/20 bg-violet-500/[0.05] px-4 py-2.5 flex items-center gap-2.5">
-            <span className="text-violet-400 text-[11px]">★</span>
-            <span className="text-[11px] text-white/50">Free drink available</span>
-            <span className="ml-auto text-[10px] text-violet-400/70">Redeem →</span>
+          {/* Benefit available */}
+          <div className="rounded-xl border border-amber-400/20 bg-amber-400/[0.05] px-4 py-2.5 flex items-center gap-2.5">
+            <span className="text-amber-400 text-[11px]">★</span>
+            <span className="text-[11px] text-white/50">1 benefit available</span>
+            <span className="ml-auto text-[10px] text-amber-400/70">Redeem →</span>
           </div>
 
         </div>
@@ -248,74 +222,139 @@ export function PhoneMockup() {
    StatsMockup — analytics dashboard, used in for-clubs
    ═══════════════════════════════════════════════════════ */
 export function StatsMockup() {
-  const bars = [38, 52, 44, 68, 55, 78, 62, 85, 70, 92, 75, 88];
+  /* Visit trend data — matches real "Visits Over Time" chart shape */
+  const visitPoints = [52, 55, 170, 80, 42, 55, 120, 185, 65, 55, 50, 80, 170, 55, 75, 115, 195, 70, 60];
+
+  /* Hourly distribution — matches real "Visits by Hour" bar chart */
+  const hourlyBars = [90, 150, 55, 15, 5, 3, 2, 2, 3, 5, 8, 12, 18, 22, 30, 42, 55, 80, 100, 130, 155, 145, 110, 70];
 
   return (
     <div className="rounded-2xl border border-white/[0.09] bg-[#090909] overflow-hidden shadow-[0_24px_80px_rgba(0,0,0,0.5)] max-w-full">
       <WindowChrome title="erez  ·  Analytics" />
 
-      <div className="p-5 flex flex-col gap-4">
+      <div className="p-4 flex flex-col gap-3">
 
-        {/* KPI grid */}
-        <div className="grid grid-cols-2 gap-2.5">
+        {/* Period selector */}
+        <div className="flex items-center gap-2">
+          <span className="text-[10px] text-white/25 px-2.5 py-1 rounded-full border border-white/[0.06]">Last 7 Days</span>
+          <span className="text-[10px] text-white font-medium px-2.5 py-1 rounded-full bg-violet-500/80">Last 30 Days</span>
+        </div>
+
+        {/* KPI row 1 — main metrics */}
+        <div className="grid grid-cols-4 gap-2">
           {[
-            { label: 'Return rate',      value: '68%',  delta: '+4%',  up: true  },
-            { label: 'Avg. visits / mo', value: '3.2',  delta: '+0.4', up: true  },
-            { label: 'VIP conversion',   value: '24%',  delta: '+2%',  up: true  },
-            { label: 'Churn risk',       value: '12',   delta: '-3',   up: false },
+            { value: '2687', label: 'Check-ins (30d)', color: 'text-violet-400' },
+            { value: '90',   label: 'Daily Avg (30d)', color: 'text-violet-300' },
+            { value: 'Saturday', label: 'Best Day', sub: '198 visits', color: 'text-amber-400' },
+            { value: '11 PM', label: 'Peak Hour', sub: 'Peak activity', color: 'text-amber-400' },
           ].map((k) => (
-            <div key={k.label} className="rounded-xl bg-white/[0.03] border border-white/[0.05] p-3">
-              <div className="text-[9.5px] text-white/25 mb-1 truncate">{k.label}</div>
-              <div className="text-[18px] font-bold text-white leading-none">{k.value}</div>
-              <div className={`text-[10px] mt-1.5 font-medium ${k.up ? 'text-green-400' : 'text-rose-400'}`}>
-                {k.delta} vs last month
-              </div>
+            <div key={k.label} className="rounded-lg bg-white/[0.03] border border-white/[0.05] p-2.5 text-center">
+              <div className={`text-[13px] font-bold leading-none ${k.color}`}>{k.value}</div>
+              <div className="text-[7.5px] text-white/25 uppercase tracking-widest mt-1">{k.label}</div>
+              {k.sub && <div className="text-[7px] text-white/15 mt-0.5">{k.sub}</div>}
             </div>
           ))}
         </div>
 
-        {/* Revenue sparkline */}
-        <div className="rounded-xl bg-white/[0.03] border border-white/[0.05] p-4">
-          <div className="flex items-center justify-between mb-3">
-            <span className="text-[9.5px] uppercase tracking-widest text-white/25">Guest visits — last 12 weeks</span>
-            <span className="text-[10px] text-white/20">↑ 24%</span>
+        {/* KPI row 2 — engagement metrics */}
+        <div className="grid grid-cols-4 gap-2">
+          {[
+            { value: '67%', label: 'Repeat Guests', sub: '+8% vs prev period', color: 'text-cyan-400' },
+            { value: '5.2', label: 'Avg Visits / Guest', sub: 'in selected period', color: 'text-violet-300' },
+            { value: '8d',  label: 'Avg Between Visits', sub: 'guests with 2+ visits', color: 'text-amber-400' },
+            { value: '28 / 112', label: 'New / Returning', sub: '80% returning', color: 'text-green-400' },
+          ].map((k) => (
+            <div key={k.label} className="rounded-lg bg-white/[0.03] border border-white/[0.05] p-2.5 text-center">
+              <div className={`text-[13px] font-bold leading-none ${k.color}`}>{k.value}</div>
+              <div className="text-[7.5px] text-white/25 uppercase tracking-widest mt-1">{k.label}</div>
+              {k.sub && <div className="text-[7px] text-green-400/60 mt-0.5">{k.sub}</div>}
+            </div>
+          ))}
+        </div>
+
+        {/* Visits Over Time — line chart approximation */}
+        <div className="rounded-xl bg-white/[0.03] border border-white/[0.05] p-3.5">
+          <div className="flex items-center gap-2 mb-3">
+            <span className="text-[9px] text-violet-400">📈</span>
+            <span className="text-[10px] font-semibold text-white">Visits Over Time</span>
           </div>
-          <div className="flex items-end gap-1 h-10">
-            {bars.map((h, i) => (
-              <div
-                key={i}
-                className="flex-1 rounded-sm"
-                style={{
-                  height: `${h}%`,
-                  background:
-                    i === bars.length - 1
-                      ? 'linear-gradient(to top, #7c3aed, #06b6d4)'
-                      : `rgba(255,255,255,${0.06 + (h / 92) * 0.1})`,
-                }}
-              />
-            ))}
+          <div className="relative h-12">
+            {/* Y-axis labels */}
+            <div className="absolute left-0 top-0 bottom-0 flex flex-col justify-between text-[7px] text-white/15 pr-1">
+              <span>200</span>
+              <span>100</span>
+              <span>0</span>
+            </div>
+            {/* Chart area */}
+            <div className="ml-5 h-full flex items-end gap-px">
+              {visitPoints.map((v, i) => (
+                <div key={i} className="flex-1 flex flex-col justify-end items-center">
+                  <div
+                    className="w-full rounded-t-sm"
+                    style={{
+                      height: `${(v / 200) * 100}%`,
+                      background: `rgba(6,182,212,${0.3 + (v / 200) * 0.5})`,
+                    }}
+                  />
+                </div>
+              ))}
+            </div>
           </div>
         </div>
 
-        {/* Top guests */}
-        <div className="rounded-xl bg-white/[0.03] border border-white/[0.05] p-3.5">
-          <div className="text-[9.5px] uppercase tracking-widest text-white/25 mb-3">Top guests this month</div>
-          <div className="flex flex-col gap-2.5">
-            {[
-              { name: 'Alex M.',  value: '€840', visits: '8 visits', color: 'from-violet-500 to-cyan-400 text-white' },
-              { name: 'Sarah K.', value: '€620', visits: '6 visits', color: 'from-sky-400 to-blue-500 text-white' },
-              { name: 'Lena R.',  value: '€510', visits: '5 visits', color: 'bg-white/[0.08] text-white/50' },
-            ].map((g) => (
-              <div key={g.name} className="flex items-center gap-2.5">
-                <div className={`size-6 rounded-full flex-shrink-0 flex items-center justify-center text-[9px] font-bold ${g.color.includes('from-') ? `bg-gradient-to-br ${g.color}` : g.color}`}>
-                  {g.name[0]}
-                </div>
-                <span className="text-[11px] text-white/60 flex-1">{g.name}</span>
-                <span className="text-[10px] text-white/25">{g.visits}</span>
-                <span className="text-[11px] font-medium text-white/70">{g.value}</span>
-              </div>
-            ))}
+        {/* Bottom row: Visits by Hour + Insights */}
+        <div className="grid grid-cols-2 gap-2.5">
+
+          {/* Visits by Hour — bar chart */}
+          <div className="rounded-xl bg-white/[0.03] border border-white/[0.05] p-3">
+            <div className="flex items-center gap-1.5 mb-2.5">
+              <span className="text-[8px] text-amber-400">◎</span>
+              <span className="text-[9px] font-semibold text-white">Visits by Hour</span>
+            </div>
+            <div className="flex items-end gap-px h-8">
+              {hourlyBars.map((h, i) => (
+                <div
+                  key={i}
+                  className="flex-1 rounded-t-sm"
+                  style={{
+                    height: `${(h / 155) * 100}%`,
+                    background: h > 100 ? '#f59e0b' : 'rgba(245,158,11,0.4)',
+                  }}
+                />
+              ))}
+            </div>
+            <div className="flex justify-between mt-1.5">
+              <span className="text-[6px] text-white/15">12 AM</span>
+              <span className="text-[6px] text-white/15">12 PM</span>
+              <span className="text-[6px] text-white/15">11 PM</span>
+            </div>
           </div>
+
+          {/* Insights */}
+          <div className="rounded-xl bg-white/[0.03] border border-white/[0.05] p-3">
+            <div className="text-[8px] uppercase tracking-widest text-white/25 mb-2.5">Insights</div>
+            <div className="flex flex-col gap-2.5">
+              <div className="flex items-start gap-2">
+                <div className="size-4 rounded-full bg-cyan-500/15 flex items-center justify-center flex-shrink-0 mt-0.5">
+                  <span className="text-[7px] text-cyan-400">◎</span>
+                </div>
+                <div>
+                  <div className="text-[9px] font-semibold text-white">Peak Hours</div>
+                  <div className="text-[8px] text-white/25 mt-0.5">Busiest at 11 PM</div>
+                </div>
+              </div>
+              <div className="flex items-start gap-2">
+                <div className="size-4 rounded-full bg-green-500/15 flex items-center justify-center flex-shrink-0 mt-0.5">
+                  <span className="text-[7px] text-green-400">✓</span>
+                </div>
+                <div>
+                  <div className="text-[9px] font-semibold text-white">Strong Loyalty</div>
+                  <div className="text-[8px] text-white/25 mt-0.5">67% came back more than once</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
         </div>
 
       </div>

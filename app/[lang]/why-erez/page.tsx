@@ -35,7 +35,7 @@ export default async function WhyErezPage({
               <br />
               <span className="gradient-text">{d.hero.headline2}</span>
             </h1>
-            <p className="text-lg md:text-xl text-white/40 max-w-xl leading-relaxed">
+            <p className="text-lg md:text-xl text-white/55 max-w-xl leading-relaxed">
               {d.hero.sub}
             </p>
           </div>
@@ -66,7 +66,7 @@ export default async function WhyErezPage({
                   <h3 className="text-xl font-semibold text-white tracking-tight leading-snug">
                     {point.heading}
                   </h3>
-                  <p className="text-sm text-white/40 leading-relaxed">{point.body}</p>
+                  <p className="text-sm text-white/55 leading-relaxed">{point.body}</p>
                 </div>
               </div>
             ))}

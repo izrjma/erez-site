@@ -19,7 +19,7 @@ export default async function TermsPage({
         <h1 className="text-3xl sm:text-4xl md:text-5xl font-semibold tracking-tight text-white mb-3">
           {d.title}
         </h1>
-        <p className="text-sm text-white/25 mb-16">{d.lastUpdated}</p>
+        <p className="text-sm text-white/35 mb-16">{d.lastUpdated}</p>
 
         <div className="flex flex-col gap-12">
           {(d.sections as { title: string; content: string }[]).map((section, i) => (
@@ -27,7 +27,7 @@ export default async function TermsPage({
               <h2 className="text-base font-semibold text-white/80 tracking-tight">
                 {section.title}
               </h2>
-              <p className="text-sm text-white/40 leading-relaxed">
+              <p className="text-sm text-white/55 leading-relaxed">
                 {section.content}
               </p>
             </div>

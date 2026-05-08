@@ -56,7 +56,7 @@ export function CTA({ lang, dict }: CTAProps) {
             </h2>
 
             <div className="flex flex-col gap-3">
-              <p className="text-[1rem] text-white/40 leading-relaxed">{dict.sub}</p>
+              <p className="text-[1rem] text-white/55 leading-relaxed">{dict.sub}</p>
               <p className="text-[1rem] text-white/55 leading-relaxed font-medium">{dict.qualifier}</p>
             </div>
 
@@ -66,7 +66,7 @@ export function CTA({ lang, dict }: CTAProps) {
                   {dict.cta}
                 </Button>
               </div>
-              <p className="text-[12px] text-white/22">{dict.note}</p>
+              <p className="text-[12px] text-white/32">{dict.note}</p>
             </div>
           </div>
 
@@ -75,7 +75,7 @@ export function CTA({ lang, dict }: CTAProps) {
 
             {/* Who we work with */}
             <div className="flex flex-col gap-5">
-              <span className="text-[11px] uppercase tracking-[0.16em] text-white/25 font-medium">
+              <span className="text-[11px] uppercase tracking-[0.16em] text-white/35 font-medium">
                 {dict.whoTitle}
               </span>
               <ul className="flex flex-col gap-3.5">
@@ -85,14 +85,14 @@ export function CTA({ lang, dict }: CTAProps) {
                       className="size-1.5 rounded-full flex-shrink-0"
                       style={{ background: 'linear-gradient(135deg, #7c3aed, #06b6d4)' }}
                     />
-                    <span className="text-[0.95rem] text-white/50">{item}</span>
+                    <span className="text-[0.95rem] text-white/60">{item}</span>
                   </li>
                 ))}
               </ul>
             </div>
 
             {/* Divider */}
-            <div className="h-px bg-white/[0.05]" />
+            <div className="h-px bg-white/[0.07]" />
 
             {/* Stats */}
             <div className="grid grid-cols-2 sm:grid-cols-3 gap-4">
@@ -104,7 +104,7 @@ export function CTA({ lang, dict }: CTAProps) {
                   >
                     {s.value}
                   </div>
-                  <div className="text-[11px] text-white/28 leading-snug">{s.label}</div>
+                  <div className="text-[11px] text-white/38 leading-snug">{s.label}</div>
                 </div>
               ))}
             </div>

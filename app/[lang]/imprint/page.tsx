@@ -19,7 +19,7 @@ export default async function ImprintPage({
         <h1 className="text-3xl sm:text-4xl md:text-5xl font-semibold tracking-tight text-white mb-12">
           {d.title}
         </h1>
-        <div className="text-sm text-white/40 leading-relaxed whitespace-pre-line">
+        <div className="text-sm text-white/55 leading-relaxed whitespace-pre-line">
           {d.content}
         </div>
       </div>

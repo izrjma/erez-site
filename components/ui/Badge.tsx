@@ -12,7 +12,7 @@ export function Badge({ children, className, dot = true }: BadgeProps) {
       className={cn(
         'inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full',
         'text-[11px] font-medium tracking-widest uppercase',
-        'border border-white/[0.1] bg-white/[0.04] text-white/50',
+        'border border-white/[0.12] bg-white/[0.05] text-white/60',
         className,
       )}
     >

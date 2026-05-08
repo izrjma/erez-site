@@ -57,7 +57,7 @@ function FlowSection({
             </div>
             <div className="pt-1.5">
               <h3 className="text-base font-semibold text-white mb-1.5 tracking-tight">{step.title}</h3>
-              <p className="text-sm text-white/40 leading-relaxed">{step.body}</p>
+              <p className="text-sm text-white/55 leading-relaxed">{step.body}</p>
             </div>
           </li>
         ))}
@@ -97,7 +97,7 @@ export default async function HowItWorksPage({
               <br />
               <span className="gradient-text">{d.hero.headline2}</span>
             </h1>
-            <p className="text-lg md:text-xl text-white/40 max-w-lg leading-relaxed">
+            <p className="text-lg md:text-xl text-white/55 max-w-lg leading-relaxed">
               {d.hero.sub}
             </p>
           </div>
@@ -132,7 +132,7 @@ export default async function HowItWorksPage({
           <h2 className="text-3xl md:text-4xl font-semibold tracking-tight text-white">
             {dict.cta.heading}
           </h2>
-          <p className="text-white/40">{dict.cta.sub}</p>
+          <p className="text-white/55">{dict.cta.sub}</p>
           <Button href={`/${lang}/contact`} variant="primary" size="lg">
             {dict.nav.requestAccess}
           </Button>

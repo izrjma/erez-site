@@ -37,7 +37,7 @@ export function Problem({ dict }: ProblemProps) {
 
             <div className="flex flex-col gap-4">
               {bodyLines.map((line, i) => (
-                <p key={i} className="text-[0.95rem] text-white/38 leading-relaxed">
+                <p key={i} className="text-[0.95rem] text-white/50 leading-relaxed">
                   {line}
                 </p>
               ))}
@@ -64,7 +64,7 @@ export function Problem({ dict }: ProblemProps) {
                   </div>
                 ))}
               </div>
-              <p className="text-[11px] text-white/18 uppercase tracking-[0.15em] mt-4">
+              <p className="text-[11px] text-white/28 uppercase tracking-[0.15em] mt-4">
                 {dict.unknownLabel}
               </p>
             </div>
@@ -95,7 +95,7 @@ export function Problem({ dict }: ProblemProps) {
               {dict.fixHeading}
             </h2>
 
-            <p className="text-[0.95rem] text-white/38 leading-relaxed">{dict.fixBody}</p>
+            <p className="text-[0.95rem] text-white/50 leading-relaxed">{dict.fixBody}</p>
 
             {/* Visual: rich recognised guest card */}
             <div className="mt-auto pt-4">
@@ -111,11 +111,11 @@ export function Problem({ dict }: ProblemProps) {
                   <div className="flex-1 min-w-0">
                     <div className="flex items-center gap-2">
                       <span className="text-[13px] font-semibold text-white">{dict.guestName}</span>
-                      <span className="text-[9.5px] uppercase tracking-wider font-semibold px-2 py-0.5 rounded-full text-violet-400 bg-violet-400/10 border border-violet-400/15">
-                        Platinum
+                      <span className="text-[9.5px] uppercase tracking-wider font-semibold px-2 py-0.5 rounded-full text-amber-400 bg-amber-400/10 border border-amber-400/20">
+                        VIP
                       </span>
                     </div>
-                    <div className="text-[11px] text-white/30 mt-0.5 truncate">{dict.guestMeta}</div>
+                    <div className="text-[11px] text-white/40 mt-0.5 truncate">{dict.guestMeta}</div>
                   </div>
                   <div className="size-5 rounded-full bg-green-500/15 flex items-center justify-center flex-shrink-0">
                     <div className="size-2 rounded-full bg-green-500" />
@@ -126,10 +126,10 @@ export function Problem({ dict }: ProblemProps) {
                 <div className="grid grid-cols-2 gap-px bg-white/[0.04]">
                   {[
                     { label: 'Last visit', value: '6 days ago' },
-                    { label: 'Lifetime spend', value: '€3,200' },
+                    { label: 'Total visits', value: '47' },
                   ].map((f) => (
                     <div key={f.label} className="bg-[#090909] px-4 py-2.5">
-                      <div className="text-[9.5px] text-white/20 uppercase tracking-widest mb-0.5">{f.label}</div>
+                      <div className="text-[9.5px] text-white/30 uppercase tracking-widest mb-0.5">{f.label}</div>
                       <div className="text-[12px] font-medium text-white/70">{f.value}</div>
                     </div>
                   ))}
@@ -138,11 +138,11 @@ export function Problem({ dict }: ProblemProps) {
                 {/* Note row */}
                 <div className="px-4 py-3 bg-[#090909] border-t border-white/[0.04] flex items-center gap-2">
                   <span className="text-violet-400/50 text-[11px]">★</span>
-                  <span className="text-[11px] text-white/30">{dict.guestNote}</span>
+                  <span className="text-[11px] text-white/40">{dict.guestNote}</span>
                 </div>
               </div>
 
-              <p className="text-[11px] text-white/18 uppercase tracking-[0.15em] mt-4">
+              <p className="text-[11px] text-white/28 uppercase tracking-[0.15em] mt-4">
                 {dict.knownLabel}
               </p>
             </div>

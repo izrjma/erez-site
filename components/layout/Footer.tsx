@@ -37,7 +37,7 @@ export function Footer({ lang, dict }: FooterProps) {
   ];
 
   return (
-    <footer className="border-t border-white/[0.06] bg-[#080808]">
+    <footer className="border-t border-white/[0.06] bg-[#0A0A0A]">
       <div className="max-w-7xl mx-auto px-6 lg:px-10 py-16 grid grid-cols-2 md:grid-cols-4 gap-8">
         {/* Brand */}
         <div className="col-span-2 flex flex-col gap-4">
@@ -50,14 +50,14 @@ export function Footer({ lang, dict }: FooterProps) {
               className="h-14 w-auto"
             />
           </Link>
-          <p className="text-sm text-white/30 leading-relaxed max-w-xs">
+          <p className="text-sm text-white/40 leading-relaxed max-w-xs">
             {dict.tagline}
           </p>
         </div>
 
         {/* Product links */}
         <div className="flex flex-col gap-4">
-          <span className="text-[11px] uppercase tracking-widest text-white/25 font-medium">
+          <span className="text-[11px] uppercase tracking-widest text-white/35 font-medium">
             {dict.colProduct}
           </span>
           <nav className="flex flex-col gap-3">
@@ -65,7 +65,7 @@ export function Footer({ lang, dict }: FooterProps) {
               <Link
                 key={l.href}
                 href={l.href}
-                className="text-sm text-white/40 hover:text-white/80 transition-colors"
+                className="text-sm text-white/50 hover:text-white/80 transition-colors"
               >
                 {l.label}
               </Link>
@@ -75,7 +75,7 @@ export function Footer({ lang, dict }: FooterProps) {
 
         {/* Company links */}
         <div className="flex flex-col gap-4">
-          <span className="text-[11px] uppercase tracking-widest text-white/25 font-medium">
+          <span className="text-[11px] uppercase tracking-widest text-white/35 font-medium">
             {dict.colCompany}
           </span>
           <nav className="flex flex-col gap-3">
@@ -86,7 +86,7 @@ export function Footer({ lang, dict }: FooterProps) {
                   href={l.href}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-sm text-white/40 hover:text-white/80 transition-colors"
+                  className="text-sm text-white/50 hover:text-white/80 transition-colors"
                 >
                   {l.label}
                 </a>
@@ -94,7 +94,7 @@ export function Footer({ lang, dict }: FooterProps) {
                 <Link
                   key={l.href}
                   href={l.href}
-                  className="text-sm text-white/40 hover:text-white/80 transition-colors"
+                  className="text-sm text-white/50 hover:text-white/80 transition-colors"
                 >
                   {l.label}
                 </Link>
@@ -106,10 +106,10 @@ export function Footer({ lang, dict }: FooterProps) {
 
       {/* Bottom bar */}
       <div className="border-t border-white/[0.04] max-w-7xl mx-auto px-6 lg:px-10 py-5 flex flex-col sm:flex-row items-center justify-between gap-4">
-        <span className="text-xs text-white/20">{dict.copyright}</span>
+        <span className="text-xs text-white/30">{dict.copyright}</span>
         <div className="flex items-center gap-1">
           <span className="w-1.5 h-1.5 rounded-full bg-green-500/70" />
-          <span className="text-xs text-white/20">All systems operational</span>
+          <span className="text-xs text-white/30">All systems operational</span>
         </div>
       </div>
     </footer>

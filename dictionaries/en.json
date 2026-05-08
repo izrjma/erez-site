@@ -25,8 +25,8 @@
     "unknownLabel": "Unknown on arrival",
     "knownLabel": "Known on arrival",
     "guestName": "Alex M.",
-    "guestMeta": "47 visits  ·  Platinum  ·  Whiskey Old Fashioned",
-    "guestNote": "Birthday next week"
+    "guestMeta": "47 visits  ·  VIP  ·  Last: 6 days ago",
+    "guestNote": "Team note: prefers bar seating"
   },
   "howItWorks": {
     "eyebrow": "The flow",
@@ -57,11 +57,11 @@
     "items": [
       {
         "title": "Guest identity",
-        "body": "A persistent profile from the first scan. Name, preferences, visit history — always current, always available to your team."
+        "body": "A persistent profile from the first scan. Name, visit history, signals like 'Old Fashioned, neat' or 'always books the corner table' — always current, always available to your team."
       },
       {
-        "title": "Staff view",
-        "body": "Front-of-house sees the right information at the right moment. Discreet, real-time, built for busy floors."
+        "title": "Live check-in alerts",
+        "body": "The moment a guest scans, your team gets a live signal. VIPs, returning regulars, first-timers — flagged the second they walk in."
       },
       {
         "title": "Loyalty engine",
@@ -72,12 +72,12 @@
         "body": "VIP lists, membership gates, event access — managed from one place."
       },
       {
-        "title": "Analytics",
-        "body": "Retention, churn risk, spend per guest. Know who's drifting before it's too late."
+        "title": "Smart insights",
+        "body": "See your busiest and quietest days at a glance. Turn the pattern into targeted offers — fill slow nights, reward your peak crowd."
       },
       {
-        "title": "White label",
-        "body": "Runs entirely under your brand. Your guests never see erez."
+        "title": "Guest reviews",
+        "body": "Reviews tied to real check-ins. Honest feedback from guests who actually showed up — not anonymous noise from the internet."
       }
     ]
   },
@@ -138,7 +138,7 @@
       {
         "label": "Management console",
         "heading": "See what's actually happening.",
-        "body": "Attendance, loyalty tiers, revenue per guest, churn risk — all in one place. Built for managers who need answers fast."
+        "body": "Visits, repeat rate, peak times, new vs. returning guests — all in one place. Built for teams that want to know what's working."
       }
     ],
     "cta": {
