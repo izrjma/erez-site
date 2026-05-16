@@ -38,6 +38,15 @@ export function Navbar({ lang, dict }: NavbarProps) {
   // Close menu on route change
   useEffect(() => setOpen(false), [pathname]);
 
+  // Lock body scroll while menu is open
+  useEffect(() => {
+    if (open) {
+      const prev = document.body.style.overflow;
+      document.body.style.overflow = 'hidden';
+      return () => { document.body.style.overflow = prev; };
+    }
+  }, [open]);
+
   const navLinks = [
     { label: dict.forClubs,   href: `/${lang}/for-venues` },
     { label: dict.howItWorks, href: `/${lang}/how-it-works` },

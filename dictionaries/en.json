@@ -11,7 +11,7 @@
     "headline1": "Turn guests into",
     "headline2": "familiar faces.",
     "sub": "One scan. Your team instantly knows who's standing in front of them.",
-    "proof": ["No app. No login.", "Instantly visible.", "Your brand. Not ours."],
+    "proof": ["No app. No login.", "Instantly visible.", "Discreet for guests."],
     "cta1": "Request access",
     "cta2": "See it in action"
   },
@@ -98,7 +98,7 @@
     "stats": [
       { "value": "< 24h", "label": "First response" },
       { "value": "Zero", "label": "App downloads required" },
-      { "value": "100%", "label": "Your brand. Not ours." }
+      { "value": "Live", "label": "Guest recognition" }
     ]
   },
   "footer": {

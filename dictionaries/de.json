@@ -11,7 +11,7 @@
     "headline1": "Aus Gästen werden",
     "headline2": "bekannte Gesichter.",
     "sub": "Ein Scan genügt. Dein Team weiß sofort, wer vor ihnen steht.",
-    "proof": ["Keine App. Kein Login.", "Sofort sichtbar.", "Deine Marke. Nicht unsere."],
+    "proof": ["Keine App. Kein Login.", "Sofort sichtbar.", "Diskret für Gäste."],
     "cta1": "Zugang anfragen",
     "cta2": "In Aktion sehen"
   },
@@ -98,7 +98,7 @@
     "stats": [
       { "value": "< 24h", "label": "Erste Antwort" },
       { "value": "0", "label": "App-Downloads erforderlich" },
-      { "value": "100%", "label": "Deine Marke. Nicht unsere." }
+      { "value": "Live", "label": "Gäste-Erkennung" }
     ]
   },
   "footer": {

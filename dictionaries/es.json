@@ -11,7 +11,7 @@
     "headline1": "Convierte clientes en",
     "headline2": "caras conocidas.",
     "sub": "Un scan basta. Tu equipo sabe al instante quién tiene delante.",
-    "proof": ["Sin app. Sin login.", "Visible al instante.", "Tu marca. No la nuestra."],
+    "proof": ["Sin app. Sin login.", "Visible al instante.", "Discreto para clientes."],
     "cta1": "Solicitar acceso",
     "cta2": "Verlo en acción"
   },
@@ -98,7 +98,7 @@
     "stats": [
       { "value": "< 24h", "label": "Primera respuesta" },
       { "value": "0", "label": "Descargas de app requeridas" },
-      { "value": "100%", "label": "Tu marca. No la nuestra." }
+      { "value": "Live", "label": "Reconocimiento al instante" }
     ]
   },
   "footer": {

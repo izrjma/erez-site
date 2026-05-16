@@ -30,6 +30,8 @@ const labelBase = 'text-xs font-medium text-white/50 uppercase tracking-widest m
 
 export function ContactForm({ dict }: ContactFormProps) {
   const [sent, setSent] = useState(false);
+  const [sending, setSending] = useState(false);
+  const [error, setError] = useState<string | null>(null);
   const [form, setForm] = useState({
     name: '',
     email: '',
@@ -41,14 +43,23 @@ export function ContactForm({ dict }: ContactFormProps) {
   const set = (k: keyof typeof form) => (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) =>
     setForm((f) => ({ ...f, [k]: e.target.value }));
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    const subject = encodeURIComponent(`erez — ${form.venue || 'New inquiry'}`);
-    const body = encodeURIComponent(
-      `Name: ${form.name}\nEmail: ${form.email}\nVenue: ${form.venue}\nType: ${form.type}\n\n${form.message}`,
-    );
-    window.open(`mailto:hello@erez.app?subject=${subject}&body=${body}`, '_self');
-    setSent(true);
+    setSending(true);
+    setError(null);
+    try {
+      const res = await fetch('/api/contact', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(form),
+      });
+      if (!res.ok) throw new Error('Send failed');
+      setSent(true);
+    } catch {
+      setError('Something went wrong. Please email hello@erez.app directly.');
+    } finally {
+      setSending(false);
+    }
   };
 
   if (sent) {
@@ -133,11 +144,15 @@ export function ContactForm({ dict }: ContactFormProps) {
       </div>
 
       <div className="flex flex-col sm:flex-row items-start sm:items-center gap-4 pt-2">
-        <Button type="submit" variant="primary" size="lg">
-          {dict.submit}
+        <Button type="submit" variant="primary" size="lg" disabled={sending}>
+          {sending ? '…' : dict.submit}
         </Button>
         <span className="text-[13px] sm:text-xs text-white/35">{dict.note}</span>
       </div>
+
+      {error && (
+        <p className="text-xs text-rose-400/80 mt-2">{error}</p>
+      )}
 
       <p className="text-xs text-white/[0.35] hover:text-white/60 transition-colors mt-3">
         {dict.legalPrefix}
