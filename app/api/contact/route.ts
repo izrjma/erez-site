@@ -1,19 +1,32 @@
 import { NextResponse } from 'next/server';
-import { Resend } from 'resend';
+import nodemailer from 'nodemailer';
+
+export const runtime = 'nodejs';
 
 export async function POST(req: Request) {
   try {
-    const apiKey = process.env.RESEND_API_KEY;
-    if (!apiKey) {
+    const host = process.env.SMTP_HOST;
+    const port = Number(process.env.SMTP_PORT || 587);
+    const user = process.env.SMTP_USER;
+    const pass = process.env.SMTP_PASSWORD;
+    const to = process.env.MAIL_TO || 'hello@erez.app';
+
+    if (!host || !user || !pass) {
       return NextResponse.json({ error: 'Mailer not configured' }, { status: 500 });
     }
-    const resend = new Resend(apiKey);
 
     const { name, email, venue, type, message } = await req.json();
 
     if (!name || !email || !venue) {
       return NextResponse.json({ error: 'Missing required fields' }, { status: 400 });
     }
+
+    const transporter = nodemailer.createTransport({
+      host,
+      port,
+      secure: port === 465,
+      auth: { user, pass },
+    });
 
     const html = `
       <div style="font-family:system-ui,sans-serif;color:#111;line-height:1.6">
@@ -26,18 +39,13 @@ export async function POST(req: Request) {
       </div>
     `;
 
-    const { error } = await resend.emails.send({
-      from: 'erez site <noreply@erez.app>',
-      to: 'hello@erez.app',
+    await transporter.sendMail({
+      from: `erez site <${user}>`,
+      to,
       replyTo: email,
       subject: `erez — ${venue}`,
       html,
     });
-
-    if (error) {
-      console.error('Resend error:', error);
-      return NextResponse.json({ error: 'Send failed' }, { status: 500 });
-    }
 
     return NextResponse.json({ ok: true });
   } catch (err) {
