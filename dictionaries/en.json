@@ -18,10 +18,10 @@
   "problem": {
     "eyebrow": "The recognition gap",
     "heading": "You recognize your best guests too late.",
-    "body": "They come regularly.\n\nSpend more than most.\n\nAnd still — your team doesn't recognize them right away.",
+    "body": "They come regularly.\n\nSpend more than most.\n\nAnd still. Your team doesn't recognize them right away.",
     "fixLabel": "The fix",
     "fixHeading": "A live guest profile. Built from the first scan.",
-    "fixBody": "The moment a guest scans, erez creates their profile. Every return visit enriches it. Your team instantly sees who just walked in — before the first conversation.",
+    "fixBody": "The moment a guest scans, erez creates their profile. Every return visit enriches it. Your team instantly sees who just walked in. Before the first conversation.",
     "unknownLabel": "Unknown on arrival",
     "knownLabel": "Known on arrival",
     "guestName": "Alex M.",
@@ -41,7 +41,7 @@
       {
         "number": "02",
         "title": "Staff sees",
-        "body": "Dashboard updates in real time. Name, visit count, spend tier, preferences — visible before the guest reaches the bar."
+        "body": "Dashboard updates in real time. Name, visit count, spend tier, preferences. Visible before the guest reaches the bar."
       },
       {
         "number": "03",
@@ -52,16 +52,16 @@
   },
   "features": {
     "eyebrow": "What's included",
-    "heading": "From first visit to regular — automatically.",
+    "heading": "From first visit to regular. Automatically.",
     "sub": "Not more data. Clarity in the moment.",
     "items": [
       {
         "title": "Guest identity",
-        "body": "A persistent profile from the first scan. Name, visit history, signals like 'Old Fashioned, neat' or 'always books the corner table' — always current, always available to your team."
+        "body": "A persistent profile from the first scan. Name, visit history, signals like 'Old Fashioned, neat' or 'always books the corner table'. Always current, always available to your team."
       },
       {
         "title": "Live check-in alerts",
-        "body": "The moment a guest scans, your team gets a live signal. VIPs, returning regulars, first-timers — flagged the second they walk in."
+        "body": "The moment a guest scans, your team gets a live signal. VIPs, returning regulars, first-timers. Flagged the second they walk in."
       },
       {
         "title": "Loyalty engine",
@@ -69,15 +69,15 @@
       },
       {
         "title": "Access control",
-        "body": "VIP lists, membership gates, event access — managed from one place."
+        "body": "VIP lists, membership gates, event access. Managed from one place."
       },
       {
         "title": "Smart insights",
-        "body": "See your busiest and quietest days at a glance. Turn the pattern into targeted offers — fill slow nights, reward your peak crowd."
+        "body": "See your busiest and quietest days at a glance. Turn the pattern into targeted offers. Fill slow nights, reward your peak crowd."
       },
       {
         "title": "Guest reviews",
-        "body": "Reviews tied to real check-ins. Honest feedback from guests who actually showed up — not anonymous noise from the internet."
+        "body": "Reviews tied to real check-ins. Honest feedback from guests who actually showed up. Not anonymous noise from the internet."
       }
     ]
   },
@@ -122,23 +122,23 @@
       "eyebrow": "Built for hospitality",
       "headline1": "Built for the",
       "headline2": "moment at the door.",
-      "sub": "erez runs at the rhythm of your venue. Your team gets the right information — instantly. Guests feel seen, without effort."
+      "sub": "erez runs at the rhythm of your venue. Your team gets the right information. Instantly. Guests feel seen, without effort."
     },
     "sections": [
       {
         "label": "Staff experience",
         "heading": "Your team sees everything. Instantly.",
-        "body": "The moment a guest scans, your team sees everything: visits, spend, preferences. No searching. No scrolling. Just the right information — at the right moment."
+        "body": "The moment a guest scans, your team sees everything: visits, spend, preferences. No searching. No scrolling. Just the right information. At the right moment."
       },
       {
         "label": "Guest experience",
-        "heading": "Guests feel recognized — not watched.",
-        "body": "Guests scan once. From that moment, their loyalty builds automatically. Perks, status upgrades, and recognition — without ever downloading an app."
+        "heading": "Guests feel recognized. Not watched.",
+        "body": "Guests scan once. From that moment, their loyalty builds automatically. Perks, status upgrades, and recognition. Without ever downloading an app."
       },
       {
         "label": "Management console",
         "heading": "See what's actually happening.",
-        "body": "Visits, repeat rate, peak times, new vs. returning guests — all in one place. Built for teams that want to know what's working."
+        "body": "Visits, repeat rate, peak times, new vs. returning guests. All in one place. Built for teams that want to know what's working."
       }
     ],
     "cta": {
@@ -168,7 +168,7 @@
       "heading": "What your team sees.",
       "steps": [
         { "number": "01", "title": "Guest recognized", "body": "The moment a guest scans, they appear instantly on the dashboard." },
-        { "number": "02", "title": "Guest profile", "body": "Name, visits, spend, preferences — instantly visible." },
+        { "number": "02", "title": "Guest profile", "body": "Name, visits, spend, preferences. Instantly visible." },
         { "number": "03", "title": "Act immediately", "body": "Greet the guest personally, apply perks, or respond." },
         { "number": "04", "title": "Everything logged", "body": "Every interaction enriches the profile. Nothing is lost." }
       ]
@@ -179,7 +179,7 @@
       "eyebrow": "The thinking",
       "headline1": "Hospitality is",
       "headline2": "memory.",
-      "sub": "The best places remember you. Not just your order — you as a guest. erez makes that scalable."
+      "sub": "The best places remember you. Not just your order. You as a guest. erez makes that scalable."
     },
     "points": [
       {
@@ -195,7 +195,7 @@
         "body": "CRMs show what happened. erez shows who's standing in front of you."
       }
     ],
-    "manifesto": "Great hospitality starts with recognition. erez doesn't replace your team. It gives them exactly the information that makes the difference — at the right moment."
+    "manifesto": "Great hospitality starts with recognition. erez doesn't replace your team. It gives them exactly the information that makes the difference. At the right moment."
   },
   "contactPage": {
     "hero": {
@@ -240,7 +240,7 @@
     "sections": [
       {
         "title": "1. Acceptance of Terms",
-        "content": "These Terms of Service govern your use of the erez platform, operated by erez Technologies. By using erez — whether as a guest or a venue — you agree to these terms. If you do not agree, please do not use the platform."
+        "content": "These Terms of Service govern your use of the erez platform, operated by erez Technologies. By using erez, whether as a guest or a venue, you agree to these terms. If you do not agree, please do not use the platform."
       },
       {
         "title": "2. Service Description",

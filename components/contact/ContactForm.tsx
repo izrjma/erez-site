@@ -87,7 +87,7 @@ export function ContactForm({ dict }: ContactFormProps) {
           <input
             type="text"
             required
-            placeholder="—"
+            placeholder=""
             value={form.name}
             onChange={set('name')}
             className={inputBase}
@@ -98,7 +98,7 @@ export function ContactForm({ dict }: ContactFormProps) {
           <input
             type="email"
             required
-            placeholder="—"
+            placeholder=""
             value={form.email}
             onChange={set('email')}
             className={inputBase}
@@ -113,7 +113,7 @@ export function ContactForm({ dict }: ContactFormProps) {
           <input
             type="text"
             required
-            placeholder="—"
+            placeholder=""
             value={form.venue}
             onChange={set('venue')}
             className={inputBase}

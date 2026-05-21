@@ -113,7 +113,7 @@ function FeatureCard({
                   ))}
                 </div>
                 <div className="text-[11px] text-white/60 leading-snug italic">&ldquo;{r.quote}&rdquo;</div>
-                <div className="text-[10px] text-white/35 mt-1">— {r.name}</div>
+                <div className="text-[10px] text-white/35 mt-1">{r.name}</div>
               </div>
             ))}
           </div>

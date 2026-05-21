@@ -21,7 +21,7 @@
     "body": "Sie kommen regelmäßig.\n\nGeben mehr aus als andere.\n\nUnd trotzdem erkennt dein Team sie nicht sofort.",
     "fixLabel": "Die Lösung",
     "fixHeading": "Ein aktives Gästeprofil. Ab dem ersten Scan.",
-    "fixBody": "Sobald ein Gast scannt, legt erez sein Profil an. Jeder weitere Besuch ergänzt es. Dein Team sieht sofort, wer gerade reinkommt — noch vor dem ersten Gespräch.",
+    "fixBody": "Sobald ein Gast scannt, legt erez sein Profil an. Jeder weitere Besuch ergänzt es. Dein Team sieht sofort, wer gerade reinkommt. Noch vor dem ersten Gespräch.",
     "unknownLabel": "Unbekannt bei Ankunft",
     "knownLabel": "Erkannt bei Ankunft",
     "guestName": "Alex M.",
@@ -41,7 +41,7 @@
       {
         "number": "02",
         "title": "Team sieht",
-        "body": "Dashboard aktualisiert sich in Echtzeit. Name, Besuche, Ausgabenniveau, Vorlieben — sichtbar bevor der Gast die Bar erreicht."
+        "body": "Dashboard aktualisiert sich in Echtzeit. Name, Besuche, Ausgabenniveau, Vorlieben. Sichtbar bevor der Gast die Bar erreicht."
       },
       {
         "number": "03",
@@ -52,16 +52,16 @@
   },
   "features": {
     "eyebrow": "Was enthalten ist",
-    "heading": "Vom ersten Besuch zum Stammgast — automatisch.",
+    "heading": "Vom ersten Besuch zum Stammgast. Automatisch.",
     "sub": "Nicht mehr Daten. Sondern Klarheit im Moment.",
     "items": [
       {
         "title": "Gästeprofil",
-        "body": "Ein dauerhaftes Profil ab dem ersten Scan. Name, Besuchshistorie, Signale wie 'Old Fashioned, pur' oder 'sitzt immer am Ecktisch' — aktuell und jederzeit für dein Team verfügbar."
+        "body": "Ein dauerhaftes Profil ab dem ersten Scan. Name, Besuchshistorie, Signale wie 'Old Fashioned, pur' oder 'sitzt immer am Ecktisch'. Aktuell und jederzeit für dein Team verfügbar."
       },
       {
         "title": "Live Check-in-Alerts",
-        "body": "Sobald ein Gast scannt, bekommt dein Team ein Live-Signal. VIPs, Stammgäste, Erstbesucher — markiert in dem Moment, in dem sie reinkommen."
+        "body": "Sobald ein Gast scannt, bekommt dein Team ein Live-Signal. VIPs, Stammgäste, Erstbesucher. Markiert in dem Moment, in dem sie reinkommen."
       },
       {
         "title": "Loyalty Engine",
@@ -69,15 +69,15 @@
       },
       {
         "title": "Zugangskontrolle",
-        "body": "VIP-Listen, Mitgliedschaftsgates, Eventeinlass — alles an einem Ort verwaltet."
+        "body": "VIP-Listen, Mitgliedschaftsgates, Eventeinlass. Alles an einem Ort verwaltet."
       },
       {
         "title": "Smart Insights",
-        "body": "Sieh deine stärksten und schwächsten Tage auf einen Blick. Mach gezielte Angebote daraus — füll ruhige Abende, belohne deine Stoßzeiten."
+        "body": "Sieh deine stärksten und schwächsten Tage auf einen Blick. Mach gezielte Angebote daraus. Füll ruhige Abende, belohne deine Stoßzeiten."
       },
       {
         "title": "Gäste-Bewertungen",
-        "body": "Bewertungen, verknüpft mit echten Check-ins. Ehrliches Feedback von Gästen, die wirklich da waren — kein anonymes Rauschen aus dem Netz."
+        "body": "Bewertungen, verknüpft mit echten Check-ins. Ehrliches Feedback von Gästen, die wirklich da waren. Kein anonymes Rauschen aus dem Netz."
       }
     ]
   },
@@ -122,23 +122,23 @@
       "eyebrow": "Für die Gastronomie gebaut",
       "headline1": "Gebaut für den",
       "headline2": "Moment am Eingang.",
-      "sub": "erez läuft im Rhythmus deiner Venue. Dein Team bekommt die richtigen Infos — sofort. Gäste fühlen sich gesehen, ohne Aufwand."
+      "sub": "erez läuft im Rhythmus deiner Venue. Dein Team bekommt die richtigen Infos. Sofort. Gäste fühlen sich gesehen, ohne Aufwand."
     },
     "sections": [
       {
         "label": "Mitarbeitererfahrung",
         "heading": "Dein Team sieht alles. Sofort.",
-        "body": "Sobald ein Gast scannt, sieht dein Team alles: Besuche, Ausgaben, Vorlieben. Kein Suchen. Kein Scrollen. Nur die richtigen Infos — im richtigen Moment."
+        "body": "Sobald ein Gast scannt, sieht dein Team alles: Besuche, Ausgaben, Vorlieben. Kein Suchen. Kein Scrollen. Nur die richtigen Infos. Im richtigen Moment."
       },
       {
         "label": "Gästeerfahrung",
-        "heading": "Gäste fühlen sich erkannt — nicht beobachtet.",
-        "body": "Gäste scannen einmal. Loyalität baut sich automatisch auf. Vorteile, Status-Upgrades und Anerkennung — ohne App-Download."
+        "heading": "Gäste fühlen sich erkannt. Nicht beobachtet.",
+        "body": "Gäste scannen einmal. Loyalität baut sich automatisch auf. Vorteile, Status-Upgrades und Anerkennung. Ohne App-Download."
       },
       {
         "label": "Management-Konsole",
         "heading": "Du siehst, was wirklich passiert.",
-        "body": "Besuche, Rückkehrrate, Stoßzeiten, neue vs. wiederkehrende Gäste — alles an einem Ort. Für Teams, die wissen wollen, was funktioniert."
+        "body": "Besuche, Rückkehrrate, Stoßzeiten, neue vs. wiederkehrende Gäste. Alles an einem Ort. Für Teams, die wissen wollen, was funktioniert."
       }
     ],
     "cta": {
@@ -168,7 +168,7 @@
       "heading": "Was dein Team sieht.",
       "steps": [
         { "number": "01", "title": "Gast wird erkannt", "body": "Sobald ein Gast scannt, erscheint er sofort im Dashboard." },
-        { "number": "02", "title": "Gästeprofil", "body": "Name, Besuche, Ausgaben, Vorlieben — sofort sichtbar." },
+        { "number": "02", "title": "Gästeprofil", "body": "Name, Besuche, Ausgaben, Vorlieben. Sofort sichtbar." },
         { "number": "03", "title": "Direkt reagieren", "body": "Gast persönlich begrüßen, Vorteile anwenden oder reagieren." },
         { "number": "04", "title": "Alles dokumentiert", "body": "Jede Interaktion ergänzt das Profil. Nichts geht verloren." }
       ]
@@ -179,7 +179,7 @@
       "eyebrow": "Die Philosophie",
       "headline1": "Gastfreundschaft ist",
       "headline2": "Erinnerung.",
-      "sub": "Die besten Orte erinnern sich an dich. Nicht nur an deine Bestellung — sondern an dich als Gast. erez macht genau das skalierbar."
+      "sub": "Die besten Orte erinnern sich an dich. Nicht nur an deine Bestellung, sondern an dich als Gast. erez macht genau das skalierbar."
     },
     "points": [
       {
@@ -240,7 +240,7 @@
     "sections": [
       {
         "title": "1. Geltungsbereich",
-        "content": "Diese Nutzungsbedingungen gelten für die Nutzung der Plattform erez, betrieben von erez Technologies. Mit der Nutzung von erez — ob als Gast oder als Venue — erklärst du dich mit diesen Bedingungen einverstanden. Wenn du nicht einverstanden bist, nutze die Plattform bitte nicht."
+        "content": "Diese Nutzungsbedingungen gelten für die Nutzung der Plattform erez, betrieben von erez Technologies. Mit der Nutzung von erez, ob als Gast oder als Venue, erklärst du dich mit diesen Bedingungen einverstanden. Wenn du nicht einverstanden bist, nutze die Plattform bitte nicht."
       },
       {
         "title": "2. Beschreibung des Dienstes",

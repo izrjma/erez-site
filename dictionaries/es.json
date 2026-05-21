@@ -21,7 +21,7 @@
     "body": "Vienen regularmente.\n\nGastan más que el resto.\n\nY aun así, tu equipo no los reconoce de inmediato.",
     "fixLabel": "La solución",
     "fixHeading": "Un perfil activo. Creado desde el primer scan.",
-    "fixBody": "En cuanto un cliente escanea, erez crea su perfil. Cada visita lo enriquece. Tu equipo ve al instante quién acaba de entrar — antes de la primera conversación.",
+    "fixBody": "En cuanto un cliente escanea, erez crea su perfil. Cada visita lo enriquece. Tu equipo ve al instante quién acaba de entrar. Antes de la primera conversación.",
     "unknownLabel": "Desconocido al llegar",
     "knownLabel": "Reconocido al llegar",
     "guestName": "Alex M.",
@@ -41,7 +41,7 @@
       {
         "number": "02",
         "title": "El staff ve",
-        "body": "El panel se actualiza en tiempo real. Nombre, visitas, nivel de gasto, preferencias — antes de que llegue a la barra."
+        "body": "El panel se actualiza en tiempo real. Nombre, visitas, nivel de gasto, preferencias. Antes de que llegue a la barra."
       },
       {
         "number": "03",
@@ -52,16 +52,16 @@
   },
   "features": {
     "eyebrow": "Qué incluye",
-    "heading": "De la primera visita al habitual — automáticamente.",
+    "heading": "De la primera visita al habitual. Automáticamente.",
     "sub": "No más datos. Claridad en el momento.",
     "items": [
       {
         "title": "Identidad del cliente",
-        "body": "Un perfil persistente desde el primer scan. Nombre, historial de visitas, señales como 'Old Fashioned, sin hielo' o 'siempre reserva la mesa de la esquina' — siempre actualizado, siempre disponible para tu equipo."
+        "body": "Un perfil persistente desde el primer scan. Nombre, historial de visitas, señales como 'Old Fashioned, sin hielo' o 'siempre reserva la mesa de la esquina'. Siempre actualizado, siempre disponible para tu equipo."
       },
       {
         "title": "Alertas de check-in en vivo",
-        "body": "En cuanto un cliente escanea, tu equipo recibe una señal en vivo. VIPs, habituales, primeras visitas — marcados en el momento exacto en que entran."
+        "body": "En cuanto un cliente escanea, tu equipo recibe una señal en vivo. VIPs, habituales, primeras visitas. Marcados en el momento exacto en que entran."
       },
       {
         "title": "Motor de lealtad",
@@ -69,15 +69,15 @@
       },
       {
         "title": "Control de acceso",
-        "body": "Listas VIP, puertas de membresía, acceso a eventos — gestionados desde un solo lugar."
+        "body": "Listas VIP, puertas de membresía, acceso a eventos. Gestionados desde un solo lugar."
       },
       {
         "title": "Insights inteligentes",
-        "body": "Ve tus días más fuertes y más flojos de un vistazo. Convierte el patrón en ofertas dirigidas — llena las noches lentas, premia tus horas punta."
+        "body": "Ve tus días más fuertes y más flojos de un vistazo. Convierte el patrón en ofertas dirigidas. Llena las noches lentas, premia tus horas punta."
       },
       {
         "title": "Reseñas de clientes",
-        "body": "Reseñas vinculadas a check-ins reales. Feedback honesto de clientes que realmente vinieron — sin ruido anónimo de internet."
+        "body": "Reseñas vinculadas a check-ins reales. Feedback honesto de clientes que realmente vinieron. Sin ruido anónimo de internet."
       }
     ]
   },
@@ -122,23 +122,23 @@
       "eyebrow": "Hecho para la hostelería",
       "headline1": "Hecho para el",
       "headline2": "momento en la puerta.",
-      "sub": "erez funciona al ritmo de tu local. Tu equipo recibe la información correcta — al instante. Los clientes se sienten reconocidos, sin esfuerzo."
+      "sub": "erez funciona al ritmo de tu local. Tu equipo recibe la información correcta. Al instante. Los clientes se sienten reconocidos, sin esfuerzo."
     },
     "sections": [
       {
         "label": "Experiencia del staff",
         "heading": "Tu equipo lo ve todo. Al instante.",
-        "body": "En cuanto un cliente escanea, tu equipo lo ve todo: visitas, gasto, preferencias. Sin buscar. Sin desplazarse. Solo la información correcta — en el momento justo."
+        "body": "En cuanto un cliente escanea, tu equipo lo ve todo: visitas, gasto, preferencias. Sin buscar. Sin desplazarse. Solo la información correcta. En el momento justo."
       },
       {
         "label": "Experiencia del cliente",
-        "heading": "Los clientes se sienten reconocidos — no observados.",
-        "body": "Los clientes escanean una vez. La lealtad se construye automáticamente. Beneficios, actualizaciones de estado y reconocimiento — sin descargar ninguna app."
+        "heading": "Los clientes se sienten reconocidos. No observados.",
+        "body": "Los clientes escanean una vez. La lealtad se construye automáticamente. Beneficios, actualizaciones de estado y reconocimiento. Sin descargar ninguna app."
       },
       {
         "label": "Consola de gestión",
         "heading": "Ve lo que realmente está pasando.",
-        "body": "Visitas, tasa de retorno, horas punta, nuevos vs. recurrentes — todo en un lugar. Para equipos que quieren saber qué funciona."
+        "body": "Visitas, tasa de retorno, horas punta, nuevos vs. recurrentes. Todo en un lugar. Para equipos que quieren saber qué funciona."
       }
     ],
     "cta": {
@@ -168,7 +168,7 @@
       "heading": "Lo que ve tu equipo.",
       "steps": [
         { "number": "01", "title": "Cliente reconocido", "body": "En cuanto un cliente escanea, aparece al instante en el panel." },
-        { "number": "02", "title": "Perfil del cliente", "body": "Nombre, visitas, gasto, preferencias — visible al instante." },
+        { "number": "02", "title": "Perfil del cliente", "body": "Nombre, visitas, gasto, preferencias. Visible al instante." },
         { "number": "03", "title": "Reaccionar de inmediato", "body": "Saludar personalmente, aplicar beneficios o actuar." },
         { "number": "04", "title": "Todo registrado", "body": "Cada interacción complementa el perfil. Nada se pierde." }
       ]
@@ -179,7 +179,7 @@
       "eyebrow": "El pensamiento detrás",
       "headline1": "La hostelería es",
       "headline2": "memoria.",
-      "sub": "Los mejores lugares te recuerdan a ti. No solo tu pedido — a ti como cliente. erez hace exactamente eso escalable."
+      "sub": "Los mejores lugares te recuerdan a ti. No solo tu pedido. A ti como cliente. erez hace exactamente eso escalable."
     },
     "points": [
       {
@@ -195,7 +195,7 @@
         "body": "Los CRM muestran lo que pasó. erez muestra quién tienes delante."
       }
     ],
-    "manifesto": "La gran hostelería empieza por reconocer. erez no reemplaza a tu equipo. Le da exactamente la información que marca la diferencia — en el momento justo."
+    "manifesto": "La gran hostelería empieza por reconocer. erez no reemplaza a tu equipo. Le da exactamente la información que marca la diferencia. En el momento justo."
   },
   "contactPage": {
     "hero": {
@@ -240,7 +240,7 @@
     "sections": [
       {
         "title": "1. Aceptación de las condiciones",
-        "content": "Estas Condiciones de Uso regulan el uso de la plataforma erez, operada por erez Technologies. Al usar erez — ya sea como cliente o como local — aceptas estas condiciones. Si no estás de acuerdo, por favor no uses la plataforma."
+        "content": "Estas Condiciones de Uso regulan el uso de la plataforma erez, operada por erez Technologies. Al usar erez, ya sea como cliente o como local, aceptas estas condiciones. Si no estás de acuerdo, por favor no uses la plataforma."
       },
       {
         "title": "2. Descripción del servicio",
