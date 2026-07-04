@@ -105,9 +105,9 @@ export function DashboardMockup() {
       </div>
       <div className="divide-y divide-white/[0.04]">
         {[
-          { rank: 1, initials: 'V', name: 'Victoria R.', tier: 'VIP', pts: '3850 pts', visits: '68 visits', weekly: '8', bg: 'bg-gradient-to-br from-violet-500 to-cyan-400 text-white' },
-          { rank: 2, initials: 'A', name: 'Alexander K.', tier: 'VIP', pts: '2940 pts', visits: '52 visits', weekly: '7', bg: 'bg-gradient-to-br from-orange-400 to-amber-500 text-white' },
-          { rank: 3, initials: 'C', name: 'Charlotte W.', tier: 'VIP', pts: '2410 pts', visits: '48 visits', weekly: '6', bg: 'bg-gradient-to-br from-rose-400 to-pink-500 text-white' },
+          { rank: 1, initials: 'V', name: 'Victoria R.', tier: 'VIP', pts: '3850 credits', visits: '68 visits', weekly: '8', bg: 'bg-gradient-to-br from-violet-500 to-cyan-400 text-white' },
+          { rank: 2, initials: 'A', name: 'Alexander K.', tier: 'VIP', pts: '2940 credits', visits: '52 visits', weekly: '7', bg: 'bg-gradient-to-br from-orange-400 to-amber-500 text-white' },
+          { rank: 3, initials: 'C', name: 'Charlotte W.', tier: 'VIP', pts: '2410 credits', visits: '48 visits', weekly: '6', bg: 'bg-gradient-to-br from-rose-400 to-pink-500 text-white' },
         ].map((g) => (
           <div key={g.rank} className="flex items-center gap-3 px-4 py-2.5">
             <span className="text-[10px] font-bold text-white/25 w-3 text-center">{g.rank}</span>
@@ -201,7 +201,7 @@ export function PhoneMockup() {
 
           {/* Points earned */}
           <div className="rounded-xl bg-white/[0.03] border border-white/[0.06] px-4 py-3 flex items-center justify-between">
-            <span className="text-[11px] text-white/30">Tonight's points</span>
+            <span className="text-[11px] text-white/30">Tonight's credits</span>
             <span className="text-[13px] font-semibold text-white">+50</span>
           </div>
 

@@ -46,7 +46,7 @@
       {
         "number": "03",
         "title": "Guest becomes a regular",
-        "body": "Points, tier progression, and perks accrue automatically. No extra steps for the guest. No manual work for your team."
+        "body": "Credits, tier progression, and perks accrue automatically. No extra steps for the guest. No manual work for your team."
       }
     ]
   },
@@ -65,7 +65,7 @@
       },
       {
         "title": "Loyalty engine",
-        "body": "Points and tier progression that change behavior. No stamp cards. No separate app."
+        "body": "Credits and tier progression that change behavior. No stamp cards. No separate app."
       },
       {
         "title": "Access control",
@@ -160,7 +160,7 @@
         { "number": "01", "title": "Arrives", "body": "QR code at the entrance, bar, or table." },
         { "number": "02", "title": "Scans", "body": "Opens instantly in the browser. No app. No login." },
         { "number": "03", "title": "Checks in", "body": "One tap. Visit recorded. Profile updated." },
-        { "number": "04", "title": "Gets rewarded", "body": "Points, perks, and upgrades arrive automatically." }
+        { "number": "04", "title": "Gets rewarded", "body": "Credits, perks, and upgrades arrive automatically." }
       ]
     },
     "staffFlow": {
@@ -256,7 +256,7 @@
       },
       {
         "title": "5. Check-ins and Loyalty",
-        "content": "Check-ins may be limited to a certain number per venue per day. Points and rewards are defined by individual venues and may be changed or removed at any time. Points have no monetary value and are not transferable, redeemable for cash, or exchangeable."
+        "content": "Check-ins may be limited to a certain number per venue per day. Credits and rewards are defined by individual venues and may be changed or removed at any time. Credits have no monetary value and are not transferable, redeemable for cash, or exchangeable."
       },
       {
         "title": "6. Venue Responsibility",

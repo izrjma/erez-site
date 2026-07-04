@@ -46,7 +46,7 @@
       {
         "number": "03",
         "title": "El cliente se vuelve habitual",
-        "body": "Puntos, nivel y beneficios se acumulan automáticamente. Sin pasos extra para el cliente. Sin trabajo manual para el equipo."
+        "body": "Créditos, nivel y beneficios se acumulan automáticamente. Sin pasos extra para el cliente. Sin trabajo manual para el equipo."
       }
     ]
   },
@@ -65,7 +65,7 @@
       },
       {
         "title": "Motor de lealtad",
-        "body": "Puntos y niveles que realmente cambian el comportamiento. Sin tarjetas de sellos. Sin app separada."
+        "body": "Créditos y niveles que realmente cambian el comportamiento. Sin tarjetas de sellos. Sin app separada."
       },
       {
         "title": "Control de acceso",
@@ -160,7 +160,7 @@
         { "number": "01", "title": "Llega", "body": "Código QR en la entrada, la barra o la mesa." },
         { "number": "02", "title": "Escanea", "body": "Se abre al instante en el navegador. Sin app. Sin login." },
         { "number": "03", "title": "Hace check-in", "body": "Un toque. Visita registrada. Perfil actualizado." },
-        { "number": "04", "title": "Recibe ventajas", "body": "Puntos, beneficios y upgrades llegan automáticamente." }
+        { "number": "04", "title": "Recibe ventajas", "body": "Créditos, beneficios y upgrades llegan automáticamente." }
       ]
     },
     "staffFlow": {
@@ -256,7 +256,7 @@
       },
       {
         "title": "5. Check-ins y lealtad",
-        "content": "Los check-ins pueden estar limitados a un número determinado por local y día. Los puntos y recompensas son definidos por cada local y pueden ser modificados o eliminados en cualquier momento. Los puntos no tienen valor monetario y no son transferibles, canjeables ni convertibles en efectivo."
+        "content": "Los check-ins pueden estar limitados a un número determinado por local y día. Los créditos y recompensas son definidos por cada local y pueden ser modificados o eliminados en cualquier momento. Los créditos no tienen valor monetario y no son transferibles, canjeables ni convertibles en efectivo."
       },
       {
         "title": "6. Responsabilidad de los locales",

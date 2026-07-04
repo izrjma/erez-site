@@ -46,7 +46,7 @@
       {
         "number": "03",
         "title": "Gast wird Stammgast",
-        "body": "Punkte, Tier-Aufstieg und Vorteile sammeln sich automatisch an. Kein Aufwand für den Gast. Keine manuelle Arbeit für das Team."
+        "body": "Credits, Tier-Aufstieg und Vorteile sammeln sich automatisch an. Kein Aufwand für den Gast. Keine manuelle Arbeit für das Team."
       }
     ]
   },
@@ -65,7 +65,7 @@
       },
       {
         "title": "Loyalty Engine",
-        "body": "Punkte und Tier-Aufstieg, die Verhalten wirklich verändern. Keine Stempelkarten. Keine separate App."
+        "body": "Credits und Tier-Aufstieg, die Verhalten wirklich verändern. Keine Stempelkarten. Keine separate App."
       },
       {
         "title": "Zugangskontrolle",
@@ -160,7 +160,7 @@
         { "number": "01", "title": "Kommt an", "body": "QR-Code am Eingang, an der Bar oder am Tisch." },
         { "number": "02", "title": "Scannt", "body": "Öffnet sich sofort im Browser. Keine App. Kein Login." },
         { "number": "03", "title": "Checkt ein", "body": "Ein Tap. Besuch wird erfasst. Profil aktualisiert." },
-        { "number": "04", "title": "Erhält Vorteile", "body": "Punkte, Vorteile und Upgrades kommen automatisch." }
+        { "number": "04", "title": "Erhält Vorteile", "body": "Credits, Vorteile und Upgrades kommen automatisch." }
       ]
     },
     "staffFlow": {
@@ -256,7 +256,7 @@
       },
       {
         "title": "5. Check-ins und Loyalty",
-        "content": "Check-ins können auf eine bestimmte Anzahl pro Venue und Tag begrenzt sein. Punkte und Belohnungen werden von den jeweiligen Venues definiert und können jederzeit geändert oder entfernt werden. Punkte haben keinen monetären Gegenwert und sind nicht übertragbar, einlösbar oder auszahlbar."
+        "content": "Check-ins können auf eine bestimmte Anzahl pro Venue und Tag begrenzt sein. Credits und Belohnungen werden von den jeweiligen Venues definiert und können jederzeit geändert oder entfernt werden. Credits haben keinen monetären Gegenwert und sind nicht übertragbar, einlösbar oder auszahlbar."
       },
       {
         "title": "6. Verantwortung der Venues",
