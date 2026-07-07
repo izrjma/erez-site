@@ -15,9 +15,9 @@ export async function generateMetadata({
 }) {
   const { lang } = await params;
   const labels: Record<string, string> = {
-    en: 'erez — Guest recognition infrastructure',
-    de: 'erez — Gästeerkennungs-Infrastruktur',
-    es: 'erez — Infraestructura de reconocimiento de clientes',
+    en: 'erez · Guest recognition infrastructure',
+    de: 'erez · Gästeerkennungs-Infrastruktur',
+    es: 'erez · Infraestructura de reconocimiento de clientes',
   };
   return {
     title: labels[lang] ?? labels.en,

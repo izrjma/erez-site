@@ -14,11 +14,11 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: 'erez — Guest recognition infrastructure',
+  title: 'erez · Guest recognition infrastructure',
   description:
     'erez gives hospitality venues a QR-based identity layer. Staff see who walked in. Guests feel recognized every time.',
   openGraph: {
-    title: 'erez — Guest recognition infrastructure',
+    title: 'erez · Guest recognition infrastructure',
     description:
       'QR-based guest recognition and loyalty infrastructure for premium venues.',
     siteName: 'erez',
