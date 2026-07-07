@@ -54,6 +54,7 @@
     "eyebrow": "What's included",
     "heading": "From first visit to regular. Automatically.",
     "sub": "Not more data. Clarity in the moment.",
+    "tiers": { "vip": "VIP", "regular": "Regular" },
     "items": [
       {
         "title": "Guest identity",

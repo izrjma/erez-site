@@ -54,6 +54,7 @@
     "eyebrow": "Qué incluye",
     "heading": "De la primera visita al habitual. Automáticamente.",
     "sub": "No más datos. Claridad en el momento.",
+    "tiers": { "vip": "VIP", "regular": "Habitual" },
     "items": [
       {
         "title": "Identidad del cliente",

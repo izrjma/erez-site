@@ -54,6 +54,7 @@
     "eyebrow": "Was enthalten ist",
     "heading": "Vom ersten Besuch zum Stammgast. Automatisch.",
     "sub": "Nicht mehr Daten. Sondern Klarheit im Moment.",
+    "tiers": { "vip": "VIP", "regular": "Stammgast" },
     "items": [
       {
         "title": "Gästeprofil",

@@ -38,8 +38,9 @@ const icons: Record<number, React.ReactNode> = {
 };
 
 interface FeatureItem { title: string; body: string; }
+interface Tiers { vip: string; regular: string; }
 interface FeaturesProps {
-  dict: { eyebrow: string; heading: string; sub?: string; items: FeatureItem[] };
+  dict: { eyebrow: string; heading: string; sub?: string; tiers: Tiers; items: FeatureItem[] };
 }
 
 /* ── Single feature card ─────────────────────────────── */
@@ -47,10 +48,12 @@ function FeatureCard({
   item,
   index,
   wide = false,
+  tiers,
 }: {
   item: FeatureItem;
   index: number;
   wide?: boolean;
+  tiers?: Tiers;
 }) {
   return (
     <div
@@ -79,8 +82,8 @@ function FeatureCard({
         <div className="lg:ml-auto flex-shrink-0 flex flex-col gap-2 self-center">
           <div className="flex flex-col gap-2 min-w-[200px]">
             {[
-              { name: 'Alex M.',  tier: 'VIP',     visits: '47', color: 'from-amber-400 to-yellow-500 text-black' },
-              { name: 'Sarah K.', tier: 'Regular', visits: '23', color: 'from-sky-400 to-blue-500 text-white' },
+              { name: 'Alex M.',  tier: tiers?.vip ?? 'VIP',         visits: '47', color: 'from-amber-400 to-yellow-500 text-black' },
+              { name: 'Sarah K.', tier: tiers?.regular ?? 'Regular', visits: '23', color: 'from-sky-400 to-blue-500 text-white' },
             ].map((g) => (
               <div key={g.name} className="flex items-center gap-2.5 px-3.5 py-2.5 rounded-xl bg-white/[0.03] border border-white/[0.05]">
                 <div className={`size-7 rounded-full flex-shrink-0 flex items-center justify-center text-[10px] font-bold bg-gradient-to-br ${g.color}`}>
@@ -146,7 +149,7 @@ export function Features({ dict }: FeaturesProps) {
         <div className="flex flex-col gap-4">
 
           {/* Row 1: featured full-width card */}
-          <FeatureCard item={first} index={0} wide />
+          <FeatureCard item={first} index={0} wide tiers={dict.tiers} />
 
           {/* Row 2: 2-col */}
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
