@@ -139,10 +139,10 @@ export function DashboardMockup() {
 export function PhoneMockup() {
   return (
     <div className="relative mx-auto w-[230px]">
-      {/* Ambient glow */}
+      {/* Ambient glow — warm gold for VIP recognition */}
       <div
         className="absolute -inset-4 rounded-[3rem] blur-2xl -z-10 pointer-events-none"
-        style={{ background: 'rgba(124,58,237,0.06)' }}
+        style={{ background: 'rgba(232,195,107,0.10)' }}
         aria-hidden
       />
 
@@ -153,63 +153,92 @@ export function PhoneMockup() {
           <div className="w-[80px] h-[22px] rounded-full bg-[#141414]" />
         </div>
 
-        {/* Screen */}
-        <div className="px-5 pb-8 pt-3 flex flex-col gap-4">
+        {/* Screen — VIP Recognized celebration */}
+        <div className="relative px-5 pb-4 pt-4 flex flex-col gap-3 min-h-[420px] overflow-hidden">
+          {/* Subtle radial gold wash behind crown */}
+          <div
+            className="absolute left-1/2 top-14 -translate-x-1/2 size-48 -z-0 pointer-events-none"
+            style={{
+              background: 'radial-gradient(circle, rgba(232,195,107,0.16), transparent 70%)',
+            }}
+            aria-hidden
+          />
 
-          {/* Check-in success */}
-          <div className="flex flex-col items-center gap-2 py-1">
-            <div
-              className="size-14 rounded-full flex items-center justify-center shadow-lg"
-              style={{
-                background: 'linear-gradient(135deg, #7c3aed, #06b6d4)',
-                boxShadow: '0 8px 24px rgba(124,58,237,0.35)',
-              }}
-            >
-              <svg className="size-7" viewBox="0 0 24 24" fill="none" stroke="black" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
-                <polyline points="20 6 9 17 4 12" />
-              </svg>
-            </div>
-            <div className="text-center mt-1">
-              <div className="text-[11px] text-white/35">Welcome back</div>
-              <div className="text-[17px] font-semibold text-white mt-0.5">Alex M.</div>
+          {/* Signed in pill */}
+          <div className="relative flex justify-center">
+            <div className="flex items-center gap-1.5 bg-white rounded-full pl-2 pr-3 py-1">
+              <div className="size-3.5 rounded-full bg-emerald-500 flex items-center justify-center">
+                <svg className="size-2.5" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="3.5" strokeLinecap="round" strokeLinejoin="round">
+                  <polyline points="20 6 9 17 4 12" />
+                </svg>
+              </div>
+              <span className="text-[10px] font-medium text-black">Signed in</span>
             </div>
           </div>
 
-          {/* Tier status */}
-          <div className="rounded-xl bg-white/[0.04] border border-white/[0.07] p-3.5 flex items-center gap-3">
-            <div className="size-8 rounded-full bg-gradient-to-br from-amber-400 to-yellow-500 flex items-center justify-center flex-shrink-0">
-              <span className="text-[10px] font-bold text-black">V</span>
-            </div>
-            <div>
-              <div className="text-[11px] font-semibold text-amber-400">VIP member</div>
-              <div className="text-[10px] text-white/25 mt-0.5">2,840 pts · 160 to next tier</div>
-            </div>
-          </div>
-
-          {/* Progress bar */}
-          <div>
-            <div className="w-full h-1 rounded-full bg-white/[0.07]">
+          {/* Crown circle with concentric gold rings */}
+          <div className="relative flex justify-center mt-2">
+            <div className="relative size-[92px]">
+              <div className="absolute inset-0 rounded-full border border-amber-400/25" />
+              <div className="absolute inset-2 rounded-full border border-amber-400/45" />
               <div
-                className="h-full rounded-full"
+                className="absolute inset-[14px] rounded-full flex items-center justify-center"
                 style={{
-                  width: '82%',
-                  background: 'linear-gradient(90deg, #7c3aed, #06b6d4)',
+                  background: 'radial-gradient(circle at 35% 30%, rgba(232,195,107,0.5), rgba(180,140,50,0.25) 60%, rgba(120,90,30,0.15) 100%)',
+                  boxShadow: 'inset 0 0 20px rgba(232,195,107,0.3)',
                 }}
-              />
+              >
+                <svg viewBox="0 0 24 24" fill="none" stroke="#e8c36b" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" className="size-8">
+                  <path d="M3 18h18M4 8l4 4 4-6 4 6 4-4-1 10H5L4 8z" />
+                </svg>
+              </div>
             </div>
           </div>
 
-          {/* Points earned */}
-          <div className="rounded-xl bg-white/[0.03] border border-white/[0.06] px-4 py-3 flex items-center justify-between">
-            <span className="text-[11px] text-white/30">Tonight's credits</span>
-            <span className="text-[13px] font-semibold text-white">+50</span>
+          {/* VIP · RECOGNIZED tag */}
+          <div className="relative flex items-center justify-center gap-2.5 mt-1">
+            <div className="size-1.5 rounded-full bg-amber-400" />
+            <span className="text-[10px] font-bold text-amber-400 tracking-[0.22em]">VIP</span>
+            <span className="text-amber-400/40 text-[9px]">·</span>
+            <span className="text-[10px] font-bold text-amber-400 tracking-[0.22em]">RECOGNIZED</span>
           </div>
 
-          {/* Benefit available */}
-          <div className="rounded-xl border border-amber-400/20 bg-amber-400/[0.05] px-4 py-2.5 flex items-center gap-2.5">
-            <span className="text-amber-400 text-[11px]">★</span>
-            <span className="text-[11px] text-white/50">1 benefit available</span>
-            <span className="ml-auto text-[10px] text-amber-400/70">Redeem →</span>
+          {/* Headline */}
+          <div className="relative text-center mt-1">
+            <div className="text-[15px] font-semibold text-white leading-tight">Good to see you,<br />Noah.</div>
+            <div className="text-[10px] text-white/40 mt-1.5">Your visit no. 31.</div>
+          </div>
+
+          {/* Credits line */}
+          <div className="relative flex items-center justify-center gap-2 mt-1">
+            <span className="text-[10px] font-bold text-amber-400 tracking-[0.18em]">+10 CREDITS</span>
+            <span className="text-amber-400/40 text-[9px]">·</span>
+            <span className="text-[10px] font-bold text-amber-400/60 tracking-[0.18em]">NOW 155</span>
+          </div>
+
+          {/* Today for you card */}
+          <div className="relative rounded-xl border border-amber-400/15 bg-amber-400/[0.03] px-3 py-2.5 mt-2">
+            <div className="text-[8.5px] font-bold text-amber-400 tracking-[0.2em] mb-1.5">TODAY FOR YOU</div>
+            <div className="flex items-start gap-2">
+              <svg viewBox="0 0 24 24" fill="none" stroke="#e8c36b" strokeWidth="1.4" strokeLinecap="round" strokeLinejoin="round" className="size-3.5 flex-shrink-0 mt-0.5">
+                <path d="M3 18h18M4 8l4 4 4-6 4 6 4-4-1 10H5L4 8z" />
+              </svg>
+              <div>
+                <div className="text-[11px] font-semibold text-white leading-tight">Birthday Drink</div>
+                <div className="text-[9px] text-white/40 mt-0.5">Birthday celebration package</div>
+              </div>
+            </div>
+          </div>
+
+          {/* Continue button */}
+          <div
+            className="relative rounded-xl py-2.5 text-center mt-1"
+            style={{
+              background: 'linear-gradient(180deg, #e8c36b, #c99f42)',
+              boxShadow: '0 8px 20px rgba(232,195,107,0.2)',
+            }}
+          >
+            <span className="text-[11px] font-semibold text-black">Continue to pass →</span>
           </div>
 
         </div>
